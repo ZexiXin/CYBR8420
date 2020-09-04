@@ -1,4 +1,7 @@
 # Project topic part 
+* Front end checklist
+* Tabler
+
 
 
 > This is a group assignment. It must be completed before **09/13/2020**.
