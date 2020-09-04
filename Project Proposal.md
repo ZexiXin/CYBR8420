@@ -1,9 +1,9 @@
-# project topic part 
+# Project topic part 
 
 
 > This is a group assignment. It must be completed before **09/13/2020**.
 
-### **general requirement of the project that are copied from Canvas**
+### **General requirement of the project that are copied from Canvas**
 ### Project Proposal: 2-3 page markdown document that describes the following:
 1. Name of an open-source software project your team has chosen to work on. From here on, it will be referred to as “software”.
 2. Describe a hypothetical operational environment (e.g., home, office, enterprise, bank, government, etc.) where the users will expect security functionality from the software.
