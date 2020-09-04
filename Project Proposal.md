@@ -1,5 +1,6 @@
 # Project topic part 
 * [croc](https://github.com/schollz/croc)
+* [MeiliSearch](https://github.com/meilisearch/MeiliSearch)
 * Front end checklist
 * Tabler
 * mailcheck.js
