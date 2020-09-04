@@ -1,5 +1,5 @@
 # Project topic part 
-* [Croc](https://github.com/schollz/croc) **The picked topic**
+* [Croc](https://github.com/schollz/croc) **"The picked topic"**
 * [MeiliSearch](https://github.com/meilisearch/MeiliSearch)
 * Front end checklist
 * Tabler
