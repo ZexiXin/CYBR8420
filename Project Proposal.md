@@ -26,7 +26,7 @@ The users well expect full functionality from their homes.Sender and receiver wi
  
 ## System Engineering view 
 
-![System Engineering View](./Engineering View.png)
+![System Engineering View](./EView.png)
 
 // comments // [Here is the diagram, we need some elements to fill it](https://app.diagrams.net/#G1dM6GIznB1-VK59FLAiuCRJD4FGg0EHIf)  
 // comments // we can modify this diagram and add our enabling system, system element and other system. It shouldn't be too hard
