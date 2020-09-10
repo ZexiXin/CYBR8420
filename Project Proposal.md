@@ -22,6 +22,19 @@ Croc is a software that can safely transfer data and files from one computer to 
  
 ## Hypothetical working environment
 The users well expect full functionality from their homes.Sender and receiver will  have full access to what's going on simultaneously. 
+
+* **Scenario 1: Home Setting**  
+  Basic file sharing utilization amongst peers located within the same network domain.  Priorities include ease of use, speed, and security, although all 3 are not weighted in     the same. Home users love speed and ease, but are at times less concerned about security features than an enterprise application would need as files are more focused on         entertainment and pictures.  
+  _Threats_: network sniffing, unauthorized wifi access, man-in-the-middle attack, flooding attack, relay server vulnerabilities(SMTP, spoofing)  
+  
+* **Scenario 2: Small Business Setting**  
+  File sharing (database files, payroll/tax spreadsheets, confidential documents) amongst employees in a small business environment still located within the same network but       possibly not in the same building.  Speed and ease of use still remain prominent priorities but the security of transfer is emphasized due to the types of documents being       sent. 
+  _Threats_: network sniffing, unauthorized intranet access, targeted attacks, IoT attacks, cypher-text only attack, database leaks, relay server vulnerabilities (SMTP,           spoofing)  
+  
+* **Scenario 3: Student/Academic Setting**  
+  File sharing amongst scholars but each scholar may be on an entirely different network or on the same network (one scholar could be on the University campus, the other at       home). Priorities remain focused on ease of use, speed, and security. Documents include potentially sensitive research for large or governmental institutions. 
+  _Threats_: network sniffing, unauthorized intranet access, targeted attacks, database leaks, relay server vulnerabilities (SMTP, spoofing)
+
  
  
 ## System Engineering view 
@@ -36,9 +49,20 @@ The users well expect full functionality from their homes.Sender and receiver wi
 
 ## Threats in Operational Environment
                     
-  
+1. IP protocol
+2. Cross-platform system
+3. Relay
+4. Malicious code field
+5. Transfer malicious file
+6. Decrypt the encrypted file
+
 
 ## List of security features 
+
+Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice). 
+
+**Comment**   
+I think we can leave this one blank if we don’t have a security feature (like a ant virus or a defence for our software)
 
 
 
@@ -49,6 +73,7 @@ At the beginning stage, we didn’t have a concrete direction to explore for the
 Based on the above evaluation, Croc is the best choice for us. 
 
 ## Project Description 
+
 The project is an open source project that enables us to transfer data to one computer to another, **simultaneously**. Using a safe and secure function called **crocodile**. Crocodile is function(algorithm) that uses a three step **transaction** process:
 1. relay-assisted peer-to-peer 
 2. end-to-end encryption 
@@ -57,19 +82,25 @@ The project is an open source project that enables us to transfer data to one co
  
 ## License Summary and Contributor Agreement
 
- 
+Croc operates under the MIT open source license. This is a highly permissive license which adds only a few stipulations to the usage of the project, such as any usage of this code should also include the license, thus making any iteration of this code also highly permissive. This high level of permissiveness allows the MIT license to be compatible with other types of licenses. In this case, Croc only cites MIT as a license. 
  
 ## Software History 
-* Peer-to-peer networks often utilize relay nodes to provide various networking services. These services include the traversal of Network Address Translator (NAT), content search , application level multicasting and medium caching ..
+* **Peer-to-peer** networks often utilize relay nodes to provide various networking services. These services include the traversal of Network Address Translator (NAT), content     search , application level multicasting and medium caching ..
 
-* End-to-end encryption is a system of communication where only the communicating users can read the messages. In principle, it prevents potential eavesdroppers – including telecom providers, Internet providers, and even the provider of the communication service – from being able to access the cryptographic keys needed to decrypt the conversation
+* **End-to-end encryption** is a system of communication where only the communicating users can read the messages. In principle, it prevents potential eavesdroppers – including   telecom providers, Internet providers, and even the provider of the communication service – from being able to access the cryptographic keys needed to decrypt the conversation
 
-* Password-authenticated key exchange are two entities, who only share a password, and who are communicating over an insecure network, want to authenticate each other and agree on a large session key to be used for protecting their subsequent communication. This is called the password-authenticated key exchange problem.
+* **Password-authenticated key exchange** are two entities, who only share a password, and who are communicating over an insecure network, want to authenticate each other and     agree on a large session key to be used for protecting their subsequent communication. This is called the password-authenticated key exchange problem.
  
+## [Github Link](https://github.com/ZexiXin/CYBR8420.git)
 
 
  
 ## Teamwork Reflection
 
+Unfamiliar with the overall project process. At the beginning, we were in a state of no goals. The biggest reason was that we had not yet chosen a topic, but after our long meeting, after each of us spoke our own ideas, we found that we all agreed with each other’s thoughts and suggestions. The process of the entire project has slowly become clear finally.
 
-[GitHub Link](https://github.com/ZexiXin/CYBR8420)
+It is difficult to choose the topic of the project, because each of us has a topic of interest. This project is relatively new for us and requires constant reflection and choice. In the end, Croc was selected because this topic has the functions of transmission and reception. In the transmission and reception, we may imagine attacks in many situations.
+
+It’s difficult to draw a diagram because we don’t understand how the elements inside are structured. Finally, we resolve it by consulting class documents and group meetings.
+We come from all over the world and it is this project that connects us together. We all have a heart that loves to explore the online world, and also like to explore vulnerabilities in software. We believe that as long as we continue to explore it, all problems can be solved with our hands! Just like the name of our team, Crocodaille, looks calm on the surface, but actually hides huge energy.
+
