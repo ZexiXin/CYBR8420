@@ -13,7 +13,7 @@
 # Project Name: **Crocodaille**
 Croc is a software that can safely transfer data and files from one computer to another.It uses a relay-assisted peer-to-peer transactions and end-to-end encryption via password-authenticated key exchange. This allows data to be shared fast, easy and most importantly secure.
 
-## Team Members
+## Team Members - The Reptiles
 * Adam Mills
 * Zexi Xing
 * Ernesto Macias
@@ -59,6 +59,8 @@ The users well expect full functionality from their homes.Sender and receiver wi
 
 ## List of security features 
 
+Password authenticated key exchange (PAKE) for encrypted transmission
+
 Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice). 
 
 **Comment**   
@@ -69,12 +71,11 @@ I think we can leave this one blank if we don’t have a security feature (like 
 
 ## Team Motivation
 
-At the beginning stage, we didn’t have a concrete direction to explore for the open source project, so our team has looked through some other groups’ projects from previous years. To be honest, it helped us to narrow down our view somehow. Hence, we tried to search for some recent hot topics relative to cybersecurity.  After two hours of online meeting, there are 5 alternatives that can satisfy our interests. Then, to make everyone can really work on it, we started analyzing the detailed information in each topic area. For example, achievability of the topic, availability of relevant sources, usability in the community and modifiability of program. 
-Based on the above evaluation, Croc is the best choice for us. 
+As our team first met, we collaborated to search through various github projects to find inspiration.  We even parsed through examples of previous class’ topic choices.  This helped us to narrow down what we wanted to work on. Based on the above evaluation, we found a program called Croc on github and decided it was for us.  Croc interested us because it seems like the perfect size for a repository for our assignment, it is not too big, but also not too small, and seems to have a very active contributor base.  Written primarily in GO, and focusing on network file transfers, the project also seems inviting and interesting to our team members based on our prior knowledge and tastes.
 
 ## Project Description 
 
-The project is an open source project that enables us to transfer data to one computer to another, **simultaneously**. Using a safe and secure function called **crocodile**. Crocodile is function(algorithm) that uses a three step **transaction** process:
+The project is an open source project that enables us to transfer data to one computer to another, **simultaneously**. Using a safe and secure function called **crocodile**. One user invokes the program, selects a file, and chooses a passcode. A second user can then invoke croc using the identified passcode and receive the intended file.  In the project documentation, three key attributes are stressed as fundamental attributes of croc: its ease of use, its safety, and its speed. Crocodile is function(algorithm) that uses a three step **transaction** process:
 1. relay-assisted peer-to-peer 
 2. end-to-end encryption 
 3. via password-authenticated key exchange
