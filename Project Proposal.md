@@ -61,7 +61,7 @@ The users well expect full functionality from their homes.Sender and receiver wi
 
 * Password authenticated key exchange (PAKE) for encrypted transmission
 * Passcode authentication for file transfer
-* Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice). 
+
 
 
 ## Team Motivation
