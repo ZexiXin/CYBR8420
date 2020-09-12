@@ -59,14 +59,9 @@ The users well expect full functionality from their homes.Sender and receiver wi
 
 ## List of security features 
 
-Password authenticated key exchange (PAKE) for encrypted transmission
-
-Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice). 
-
-**Comment**   
-I think we can leave this one blank if we don’t have a security feature (like a ant virus or a defence for our software)
-
-
+* Password authenticated key exchange (PAKE) for encrypted transmission
+* Passcode authentication for file transfer
+* Develop a list of security features in the software (Again, if there are none or very few, then re-evaluate your choice). 
 
 
 ## Team Motivation
@@ -104,4 +99,7 @@ It is difficult to choose the topic of the project, because each of us has a top
 
 It’s difficult to draw a diagram because we don’t understand how the elements inside are structured. Finally, we resolve it by consulting class documents and group meetings.
 We come from all over the world and it is this project that connects us together. We all have a heart that loves to explore the online world, and also like to explore vulnerabilities in software. We believe that as long as we continue to explore it, all problems can be solved with our hands! Just like the name of our team, Crocodaille, looks calm on the surface, but actually hides huge energy.
+
+We come from all over the world and it is this project that connects us together. We all have a heart that loves to explore the online world, and also like to explore vulnerabilities in software. We believe that as long as we continue to explore it, all problems can be solved with our hands! Just like the name of our team, Crocodaille, looks calm on the surface, but actually hides huge energy.
+
 
