@@ -20,8 +20,8 @@
 * Review OSS project documentation for security-related configuration and installation issues
 
 * Internal collaboration link:
-[Google doc shared folder](https://docs.google.com/document/d/1RNjo0B2nqTEVmV74BUeL3rUyLTpLzrr7ZCfBDvtYeYs/edit)
-[Github project board](https://github.com/ZexiXin/CYBR8420/projects/1)
+  [Google doc shared folder](https://docs.google.com/document/d/1RNjo0B2nqTEVmV74BUeL3rUyLTpLzrr7ZCfBDvtYeYs/edit)  
+  [Github project board](https://github.com/ZexiXin/CYBR8420/projects/1)
 
 
 * Reflection of teamwork for SSE assignement
