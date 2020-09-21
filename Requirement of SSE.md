@@ -14,7 +14,7 @@
   5. Receiver attempts to download file VS attacker attempts to change/swap file.
 
 
-
+* Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
 
 ### Part 2: 
 * Review OSS project documentation for security-related configuration and installation issues
