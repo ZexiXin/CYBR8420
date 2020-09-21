@@ -1,17 +1,18 @@
 # Requirement of Software Security Engineering
 
 ### Part 1: 
-* Identify 5 essential interactions from Crocdeile application.
+* Identify **5 essential** interactions from Crocdeile application.
 
   ![User case diagram](image/userdigram.png)
 
 * Misuse case analysis
-  1. Sender uploads file/message VS attacker either spoofs or listens in file choice(Dong).
+  1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice(Dong).
   ![Misuse of uploading phase](image/upload.png)
-  2. Sender chooses passcode VS attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users.
-  3. User view reports VS attacker modifies the report by embedding backdoors
-  4. Receiver enters generated passcode VS attacker attempts to get remote control and gather data on users.
-  5. Receiver attempts to download file VS attacker attempts to change/swap file.
+  2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users.
+  3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
+  ![Misuse of view report](image/misuse3.png)
+  4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
+  5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
 
 
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
