@@ -9,8 +9,8 @@
   1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice(Dong).
   ![Misuse of uploading phase](image/misuse.png)
   
-  2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users.
-   ![Misuse of Receiver Entering Passcode](image/Misuse Case Number 2.png)
+  2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
+  ![Misuse of receivers passcode](image/MisuseCase2.png)
   
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
   ![Misuse of view report](image/misusereport.png)
