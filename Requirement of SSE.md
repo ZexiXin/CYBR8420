@@ -16,6 +16,7 @@
   ![Misuse of view report](image/misusereport.png)
   
   4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
+  ![Misuse of receivers passcode](MisuseCase4.png)
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
 
 
