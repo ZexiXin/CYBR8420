@@ -38,11 +38,11 @@
 
   At the beginning, we had doubts about five essential interactions of our open-source software. Just a simple list of 5 points, without expansion. 
   The most fundamental reason is that we have not thoroughly understood the overall software process. After that, each of us came to a conclusion after using the Croc software.
-  Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram. Among them, thank you the professor for   helping us point out the mistakes of the miuse cases, and we must focus on the software itself and what it can defend itself.
+  Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram. Among them, professor helps us           point out the mistakes of the miuse cases. Our instructor stated the misuse cases ought to focus on the System-of-Interest. Hence, misuse diagrams and its secrity defenses     have to stay with software itself.
   
-  When we encountered Assessing alignment of security requirements, we had a little doubt. At first, our idea was to find from the software description, and then we understood     that we should start from the software itself and use misuse cases to evaluate security requirements.
+  When we encountered assessing alignment of security requirements, we had a little doubt. At first, our idea was to explore some extra resources or other tools that can help     us to maintain the security of Croc, and then we understood we should start from the software itself and use misuse cases to evaluate security requirements.
 
   Since the project proposal was not good enough last time, I think each of us must devote 100% of our energy to face our project this time. 
-  We are a team, I believe that the ability of a team can be competent for any of us.
+  We are a team, we believe that the ability of a team can be competent for any of us.
   
-  In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated. In fact, focusing on the software       itself is the best.
+  In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated. In fact, focusing on the software     itself is the best.
