@@ -31,6 +31,7 @@
 
 
 * Reflection of teamwork for SSE assignement
+
   At the beginning, we had doubts about five essential interactions of our open-source software. Just a simple list of 5 points, without expansion. 
   The most fundamental reason is that we have not thoroughly understood the overall software process. After that, each of us came to a conclusion after using the Croc software.
   Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram. Among them, thank you the professor for   helping us point out the mistakes of the miuse cases, and we must focus on the software itself and what it can defend itself.
