@@ -27,7 +27,8 @@
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
 
 ### Part 2: 
-* Review OSS project documentation for security-related configuration and installation issues
+* Review OSS project documentation for security-related configuration and installation issues. Summarize your observations.
+
 
 * Internal collaboration link:  
   [Google doc shared folder](https://drive.google.com/drive/folders/1KaGGMMrWPBGJOGmv-B71ekzhYPtE84PG)  
