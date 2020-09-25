@@ -6,13 +6,13 @@
   ![User case diagram](image/Userdiagram2.png)
 
 * Misuse case analysis
-  1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice(Dong).
+  1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice.
   ![Misuse of uploading phase](image/micase2.png)
   
-  2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
+  2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. 
   ![Misuse of receivers passcode](image/MisuseCase2.png)
   
-  3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
+  3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors.
   
   ![Misuse of view report](image/misusereport3.png)
   
