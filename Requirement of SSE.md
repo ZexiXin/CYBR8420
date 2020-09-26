@@ -40,18 +40,23 @@
 ### Part 2: 
 * Review OSS project documentation for security-related configuration and installation issues
 
-	1. https://github.com/schollz/croc/issues/218
+	1. [Test fails issue](https://github.com/schollz/croc/issues/218)
 	
 	   In this issue flagged on Croc's github repository, the user commented that, while trying to create a version of Croc that would install and run on Alpine Linux, 
 	   he could not get it to function.  His own personal PC runs 32bit Linux but the test bench he seeks to install it on is on s390x (64 bit). The thread remains 		   unresolved. The owner/main contributor responded at some point, and the most recent comment is 6 days ago.  The most recent comment suggests looking into the 		   relationships between the systems and how they handle byte ordering.
 	
-	2.
+	2. something 
 	
-	3.
+	3. [Permission denied issue](https://github.com/schollz/croc/issues/275)
+	   
+	   A **Croc** user has reported a permission denied problem while he is trying to send an empty file from Windows system to Linux system. The main contributor denotes              it is hard to fix this problem because snapd daemon doesn’t have access to those dot-files in home directory, Hence, the user has to take advantage of a **Croc**                function which can specify the receive directory while sending files. However, we noticed there is another problem. Let say if the sender can specify a directory to            receive file, it means that directory must allow the outside access, and this outside access could bring security issues to the receiver machine. In other words,                specifying the directory might increase the risk of causing security problems on the receiver device.   
+	   
+	   In the above case, the main contributors advise the user to specify **/tmp** directory in Linux system to receive files, but in Linux **/tmp** contains many                    important files that support currenting running programs. Normally, the directory won’t contain more than **a few kilobytes**. Therefore, if sender transfers a very            large file into this directory, it might impact the performance of receiver’s system or crash the system.
+
 	
-	4.
+	4. something
 	
-	5.
+	5. something
 
 * Internal collaboration link:  
   [Google doc shared folder](https://drive.google.com/drive/folders/1KaGGMMrWPBGJOGmv-B71ekzhYPtE84PG)  
