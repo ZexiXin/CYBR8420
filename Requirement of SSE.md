@@ -47,6 +47,8 @@
 	
 	2. [Http issue](https://github.com/schollz/croc/issues/270)
 	
+	   Some networks only allow outbound connections through HTTP proxy servers. Some users have been banned during the use of the port, resulting in the inability to use 		   Croc normally. For example, a user institutional firewall / proxy and the port 9009 is blocked happened in his work environment. In fact, a big reason for this is 	 	    caused by the relay, which requires compliance with the rules. There are better ways than sequentially uploading and downloading. Instead, using a relay server to 	  	     create a full-duplex real-time communication layer between the two computers and allows any two computers to connect to one another without resorting to port 	   	      forwarding or fiddling with a server.
+	
 	3. [Permission denied issue](https://github.com/schollz/croc/issues/275)
 	   
 	   A **Croc** user has reported a permission denied problem while he is trying to send an empty file from Windows system to Linux system. The main contributor denotes              it is hard to fix this problem because snapd daemon doesn’t have access to those dot-files in home directory, Hence, the user has to take advantage of a **Croc**                function which can specify the receive directory while sending files. However, we noticed there is another problem. Let say if the sender can specify a directory to            receive file, it means that directory must allow the outside access, and this outside access could bring security issues to the receiver machine. In other words,                specifying the directory might increase the risk of causing security problems on the receiver device.   
