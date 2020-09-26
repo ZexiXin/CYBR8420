@@ -7,13 +7,13 @@
 
 * Misuse case analysis
   1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice(Dong).
-  ![Misuse of uploading phase](image/misuse.png)
+  ![Misuse of uploading phase](image/ )
   
   2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
-  ![Misuse of receivers passcode](image/MisuseCase2.png)
+  ![Misuse of receivers passcode](image/ )
   
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
-  ![Misuse of view report](image/misusereport.png)
+  ![Misuse of view report](image/ )
   
   4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
@@ -24,6 +24,21 @@
 ### Part 2: 
 * Review OSS project documentation for security-related configuration and installation issues
 
+	1. https://github.com/schollz/croc/issues/218
+		
+		In this issue flagged on Croc's github repository, the user commented that, while trying to create a version of Croc that would install and run on Alpine Linux, 
+		he could not get it to function.  His own personal PC runs 32bit Linux but the test bench he seeks to install it on is on s390x (64 bit).  The thread remains unresolved.
+		The owner/main contributor responded at some point, and the most recent comment is 6 days ago.  The most recent comment suggests looking into the relationships between 
+		the systems and how they handle byte ordering.
+	
+	2.
+	
+	3.
+	
+	4.
+	
+	5.
+
 * Internal collaboration link:  
   [Google doc shared folder](https://drive.google.com/drive/folders/1KaGGMMrWPBGJOGmv-B71ekzhYPtE84PG)  
   [Github project board](https://github.com/ZexiXin/CYBR8420/projects/1)
@@ -32,9 +47,15 @@
 * Reflection of teamwork for SSE assignement
   At the beginning, we had doubts about five essential interactions of our open-source software. Just a simple list of 5 points, without expansion. 
   The most fundamental reason is that we have not thoroughly understood the overall software process. After that, each of us came to a conclusion after using the Croc software.
-  Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram.
+  Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram. 
+  Among them, thank you the professor for helping us point out the mistakes of the misuse cases, and we must focus on the software itself and what it can defend against.
 
-  Since the project proposal was not good enough last time, I think each of us must devote 100% of our energy to face our project this time. 
+  When we encountered the "assess the alignment of security requirements", we were originally confused about what they entailed. At first, our idea was to find the software description, 
+  and then we understood that we should start from the software itself and use misuse cases to evaluate security requirements.
+  
+  
+  In our view, the grade for the project proposal assignement was as high as we would have liked, so moving forward each of us must devote more of our energy to this project in the future. 
   We are a team, I believe that the ability of a team can be competent for any of us.
 
-
+ In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated, but, if you focus on the software itself rather than the 
+ enviroment in which it runs, then it is much easier to understand.
