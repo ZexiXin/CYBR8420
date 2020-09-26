@@ -62,5 +62,5 @@
   In our view, the grade for the project proposal assignement was as high as we would have liked, so moving forward each of us must devote more of our energy to this project in the future. 
   We are a team, I believe that the ability of a team can be competent for any of us.
 
- In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated, but, if you focus on the software itself rather than the 
+ In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated, but, if you focus on the software 	itself rather than the 
  enviroment in which it runs, then it is much easier to understand.
