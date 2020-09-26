@@ -50,17 +50,17 @@
 
 
 * Reflection of teamwork for SSE assignement
+
   At the beginning, we had doubts about five essential interactions of our open-source software. Just a simple list of 5 points, without expansion. 
   The most fundamental reason is that we have not thoroughly understood the overall software process. After that, each of us came to a conclusion after using the Croc software.
   Some of the issues that occurred were identifying proper misuse cases for the diagrams and identifying the treat level of each diagram. 
   Among them, thank you the professor for helping us point out the mistakes of the misuse cases, and we must focus on the software itself and what it can defend against.
 
-  When we encountered the "assess the alignment of security requirements", we were originally confused about what they entailed. At first, our idea was to find the software description, 
+  When we encountered the "assess the alignment of security requirements", we were originally confused about what they entailed. At first, our idea was to find the software 	   description, 
   and then we understood that we should start from the software itself and use misuse cases to evaluate security requirements.
   
   
-  In our view, the grade for the project proposal assignement was as high as we would have liked, so moving forward each of us must devote more of our energy to this project in the future. 
+  In our view, the grade for the project proposal assignement was as high as we would have liked, so moving forward each of us must devote more of our energy to this project in   the future. 
   We are a team, I believe that the ability of a team can be competent for any of us.
 
- In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated, but, if you focus on the software 	itself rather than the 
- enviroment in which it runs, then it is much easier to understand.
+ In the future, we need to pay more attention to the problems of the software itself. Sometimes we think the problems are too complicated, but, if you focus on the software 	   itself rather than the enviroment in which it runs, then it is much easier to understand.
