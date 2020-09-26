@@ -45,7 +45,7 @@
 	   In this issue flagged on Croc's github repository, the user commented that, while trying to create a version of Croc that would install and run on Alpine Linux, 
 	   he could not get it to function.  His own personal PC runs 32bit Linux but the test bench he seeks to install it on is on s390x (64 bit). The thread remains 		   unresolved. The owner/main contributor responded at some point, and the most recent comment is 6 days ago.  The most recent comment suggests looking into the 		   relationships between the systems and how they handle byte ordering.
 	
-	2. something 
+	2. [Http issue](https://github.com/schollz/croc/issues/270)
 	
 	3. [Permission denied issue](https://github.com/schollz/croc/issues/275)
 	   
