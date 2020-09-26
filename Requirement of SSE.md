@@ -13,7 +13,7 @@
   ![Misuse of receivers passcode](image/MisuseCase2.png)
   
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
-  ![Misuse of view report](image/MisUseCase3.png) --->
+  ![Misuse of view report](image/MisUseCase3.png)
   
   4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
