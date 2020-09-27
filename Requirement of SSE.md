@@ -10,7 +10,7 @@
   ![Misuse of uploading phase](image/MisUseCase1.png)
   
   2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
-  ![Misuse of receivers passcode](image/MisuseCase2F.png)
+  ![Misuse of receivers passcode](image/MisUseCase2F.png)
   
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
   ![Misuse of view report](image/MisUseCase3.png)
@@ -19,7 +19,7 @@
   ![Misuse of Enter Passcode](image/MisuseCase4.png)
   
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
-  ![Misuse of Download File](image/MisuseCase5F.png)
+  ![Misuse of Download File](image/MisUseCase5F.png)
 
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
 
