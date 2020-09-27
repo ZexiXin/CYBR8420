@@ -18,7 +18,7 @@
   4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
   ![Misuse of Enter Passcode](image/MisuseCase4.png)
   
-  5. Receiver attempts to download file **VS** attacker attempts to change/swap file. (Ernesto)
+  5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
   ![Misuse of Download File](image/MisUseCase5F.png)
 
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
@@ -35,12 +35,12 @@
 
    After reviewing documentation and codebase of the OSS project, there are some basic security functions in the Croc that can prevent several malicious movements. In the 	    above misuse case, the user is trying to view the report as we described in the user diagram. Similarly, the hacker wants to grant unauthorized access to the user’s 	    report, so to prevent hackers access, the Croc app provides a passcode mechanism to assist users to protect the confidentiality of reports. In this case, hackers can 	    brute force users' passcode which threatens the security of passcodes. Fortunately, Corc allows users to customize their own complicated passcode, so using brute force is      hard to break the stronger passcode. Generally, hackers will stop accessing users’ reports in this stage, but it is still possible for hackers to decrypt the customized        passcode. Therefore, the report can be actually compressed by Croc. In other words, even though hackers can break the stronger passcode, the compress process prevent hacker    to access file.
   
-4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
- 
+4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
 
-5. Receiver attempts to download file VS attacker attempts to change/swap file. (Ernesto)
+Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique channel" and "password authentication" gateways. The case shows how the attacker tries to use stolen and random password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
 
-Croc uses an encryption method to prevent the hacker from accessing the file/message from the sender. This is created by using an input and out stream that is then connected to the downloadable file/message. The encryption is an end-to-end encryption (using PAKE). PAKE additionally will prevent eavesdroppers. If anyone “listens in” on the information exchange, then all parties will end up with different strong keys and no one can decrypt anything between them, alerting the users that an eavesdropper is present.
+5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
+
 
 ### Part 2: 
 * Review OSS project documentation for security-related configuration and installation issues
