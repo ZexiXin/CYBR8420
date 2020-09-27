@@ -58,7 +58,12 @@
 	   In the above case, the main contributors advise the user to specify **/tmp** directory in Linux system to receive files, but in Linux **/tmp** contains many                    important files that support currenting running programs. Normally, the directory won’t contain more than **a few kilobytes**. Therefore, if sender transfers a very            large file into this directory, it might impact the performance of receiver’s system or crash the system.
 
 	
-	4. something
+	4. [Passcode Authentication:](https://github.com/schollz/croc/issues/237#) 
+	Another security related issue was logged approximately 24 days ago with the subject “Better UX for wrong password with issue #237. The issue is related to passcode 		authentication but the user was able to detect that Croc error message concerning the passcode authentication attempt failed attempt message reads “connecting...[error]	2020/09/03 21:17:41 croc.go:565: ips unmarshal error: invalid character '\x01' looking for beginning of value securing channel...[error]	2020/09/03 21:17:42 		compress.go:46: error copying data: unexpected EOF problem with decoding: unexpected end of JSON input”
+	
+	According to the issue log, this messaging needed to be corrected and updated accordingly to enable user better optimize Croc. The user suggestion was to have Croc,
+	display a short error message “invalid or wrong password” which enable users to clearly distinguish the cause of the issue.
+
 	
 	5. something
 
