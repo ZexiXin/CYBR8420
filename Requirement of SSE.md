@@ -18,7 +18,7 @@
   4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
   ![Misuse of Enter Passcode](image/MisuseCase4.png)
   
-  5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
+  5. Receiver attempts to download file **VS** attacker attempts to change/swap file. (Ernesto)
   ![Misuse of Download File](image/MisUseCase5F.png)
 
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
@@ -38,7 +38,8 @@
 4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
  
 
-5. Receiver attempts to download file VS attacker attempts to change/swap file.(Ernesto)
+5. Receiver attempts to download file VS attacker attempts to change/swap file. (Ernesto)
+
 Croc uses an encryption method to prevent the hacker from accessing the file/message from the sender. This is created by using an input and out stream that is then connected to the downloadable file/message. The encryption is an end-to-end encryption (using PAKE). PAKE additionally will prevent eavesdroppers. If anyone “listens in” on the information exchange, then all parties will end up with different strong keys and no one can decrypt anything between them, alerting the users that an eavesdropper is present.
 
 ### Part 2: 
