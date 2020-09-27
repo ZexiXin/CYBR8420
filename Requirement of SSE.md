@@ -7,7 +7,7 @@
 
 * Misuse case analysis
   1. Sender uploads file/message **VS** attacker either spoofs or listens in file choice(Dong).
-  ![Misuse of uploading phase](image/misuse3.png)
+  ![Misuse of uploading phase](image/MisUseCase1.PNG)
   
   2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
   ![Misuse of receivers passcode](image/MisuseCase2.png)
