@@ -39,7 +39,9 @@
 
 	Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique channel" and what it referred to as "password authentication" gateways. The case shows how the attacker tries to use stolen and random password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
 
-5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
+5. Receiver attempts to download file VS attacker attempts to change/swap file. (Ernesto)
+
+Croc uses an encryption method to prevent the hacker from accessing the file/message from the sender. This is created by using an input and out stream that is then connected to the downloadable file/message. The encryption is an end-to-end encryption (using PAKE). PAKE additionally will prevent eavesdroppers. If anyone “listens in” on the information exchange, then all parties will end up with different strong keys and no one can decrypt anything between them, alerting the users that an eavesdropper is present.
 
 
 ### Part 2: 
