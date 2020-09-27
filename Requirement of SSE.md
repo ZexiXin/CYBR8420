@@ -12,7 +12,7 @@
   2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
   ![Misuse of receivers passcode](image/MisUseCase2F.png)
   
-  3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
+  3. User view reports **VS** attacker access the report and decrypt passcode (Xing)
   ![Misuse of view report](image/MisUseCase3.png)
  
   4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
@@ -29,7 +29,7 @@
  
 2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
 	
-	In this scenario, the attacker is attempting to decrypt the data.  The user has selected his passcode which initiates the encryption process, but this is threatend by the attackers decryption.  The User moves to use a core function of Croc, which is the secure passcode generation tool, which generates a passcode more secure than a passcode selected by a normal user.  Now that the passcode blocks the attacker, the attacker can attempt to bypass the entire passcode authentification process.  However, if the User specifies a specific IP Address for who he wants the Receiver to be, then the peer-peer download process becomes secure as Croc will only accept a user from that specific IP address to download the file.  
+   In this scenario, the attacker is attempting to decrypt the data.  The user has selected his passcode which initiates the encryption process, but this is threatend by the      attackers decryption.  The User moves to use a core function of Croc, which is the secure passcode generation tool, which generates a passcode more secure than a passcode      selected by a normal user.  Now that the passcode blocks the attacker, the attacker can attempt to bypass the entire passcode authentification process.  However, if the User    specifies a specific IP Address for who he wants the Receiver to be, then the peer-peer download process becomes secure as Croc will only accept a user from that specific IP    address to download the file.  
 
 3. User view reports **VS** attacker accesses the report and decrypt report's passcode (Xing)
 
@@ -61,14 +61,16 @@
 
 	
 	4. [Passcode Authentication:](https://github.com/schollz/croc/issues/237#) 
-	Another security related issue was logged approximately 24 days ago with the subject “Better UX for wrong password with issue #237. The issue is related to passcode 		authentication but the user was able to detect that Croc error message concerning the passcode authentication attempt failed attempt message reads “connecting...[error]	2020/09/03 21:17:41 croc.go:565: ips unmarshal error: invalid character '\x01' looking for beginning of value securing channel...[error]	2020/09/03 21:17:42 		compress.go:46: error copying data: unexpected EOF problem with decoding: unexpected end of JSON input”
 	
-	According to the issue log, this messaging needed to be corrected and updated accordingly to enable user better optimize Croc. The user suggestion was to have Croc,
-	display a short error message “invalid or wrong password” which enable users to clearly distinguish the cause of the issue.
+	   Another security related issue was logged approximately 24 days ago with the subject “Better UX for wrong password with issue #237. The issue is related to passcode 	   authentication but the user was able to detect that Croc error message concerning the passcode authentication attempt failed attempt message reads “connecting...                [error]2020/09/03 21:17:41 croc.go:565: ips unmarshal error: invalid character '\x01' looking for beginning of value securing channel...[error]2020/09/03 21:17:42 		   compress.go:46: error copying data: unexpected EOF problem with decoding: unexpected end of JSON input”
+	   
+	   According to the issue log, this messaging needed to be corrected and updated accordingly to enable user better optimize Croc. The user suggestion was to have Croc,
+	   display a short error message “invalid or wrong password” which enable users to clearly distinguish the cause of the issue.
 
 	
 	5. [Improving DOS protection and preventing channel ID collisions:](https://github.com/schollz/croc/issues/261)
-	Problem with the DOS protection, problem with word list only containing 1600 words and these words have only 900 three beginning characters. A Birthday generated 		password may contain an issue. One such solution is making the magic wormhole. Or adding a numeric password generated algorithm with the already existing world list 		making the password generated combinations into O(n^2)  instead of O(n) making the password generated combinations much harder to have a channel ID collection. 
+	
+	   Problem with the DOS protection, problem with word list only containing 1600 words and these words have only 900 three beginning characters. A Birthday generated                password may contain an issue. One such solution is making the magic wormhole. Or adding a numeric password generated algorithm with the already existing world list            making the password generated combinations into O(n^2)  instead of O(n) making the password generated combinations much harder to have a channel ID collection. 
 
 * Internal collaboration link:  
   [Google doc shared folder](https://drive.google.com/drive/folders/1KaGGMMrWPBGJOGmv-B71ekzhYPtE84PG)  
