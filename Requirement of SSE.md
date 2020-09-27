@@ -27,6 +27,8 @@
    Spoof often occurs between clients, just like when we send files, through the data terminal, then hackers can use spoof to obtain useful information. But croc avoids 	    this very well. By observing the OSS project documentation and codebase. I found that there is a particularly useful function. That is relay. It not only achieves 		    safety, but also ensures the transmission rate. There are better ways than sequentially uploading and downloading. Instead, you can use a relay server to create a full-        -duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers.
  
 2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
+	
+	In this scenario, the attacker is attempting to download the uploaded file from the sender.  However, he is not the intended recipient of the file, and as such have the appropriate passcode.  Because of this, his attempts to download the file is rejected.  Upon entering the wrong passcode, the system does not associate what the attacker types in with the file he desires.
 
 3. User view reports **VS** attacker accesses the report and decrypt report's passcode (Xing)
 
