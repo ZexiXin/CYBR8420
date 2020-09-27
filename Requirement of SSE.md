@@ -16,7 +16,7 @@
   ![Misuse of view report](image/MisUseCase3.png)
  
   4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
-  ![Misuse of Enter Passcode](image/MisuseCase4.png)
+  ![Misuse of Enter Passcode](image/MisuseCase4f.png)
   
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
   ![Misuse of Download File](image/MisUseCase5F.png)
@@ -37,7 +37,7 @@
   
 4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
 
-	Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique channel" and "password authentication" gateways. The case shows how the attacker tries to use stolen and random    password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
+	Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique channel" and what it referred to as "password authentication" gateways. The case shows how the attacker tries to use stolen and random password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
 
 5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
 
