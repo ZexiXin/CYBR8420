@@ -15,7 +15,7 @@
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
   ![Misuse of view report](image/MisUseCase3.png)
  
-  4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
+  4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
   ![Misuse of Enter Passcode](image/MisuseCase4.png)
   
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
@@ -36,6 +36,7 @@
    After reviewing documentation and codebase of the OSS project, there are some basic security functions in the Croc that can prevent several malicious movements. In the 	    above misuse case, the user is trying to view the report as we described in the user diagram. Similarly, the hacker wants to grant unauthorized access to the user’s 	    report, so to prevent hackers access, the Croc app provides a passcode mechanism to assist users to protect the confidentiality of reports. In this case, hackers can 	    brute force users' passcode which threatens the security of passcodes. Fortunately, Corc allows users to customize their own complicated passcode, so using brute force is      hard to break the stronger passcode. Generally, hackers will stop accessing users’ reports in this stage, but it is still possible for hackers to decrypt the customized        passcode. Therefore, the report can be actually compressed by Croc. In other words, even though hackers can break the stronger passcode, the compress process prevent hacker    to access file.
   
 4. Receiver enters generated passcode **VS** attacker attempts to get remote control and gather data on users.
+ 
 
 5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
 
