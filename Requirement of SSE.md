@@ -41,7 +41,7 @@
 
 5. Receiver attempts to download file VS attacker attempts to change/swap file. (Ernesto)
 
-Croc uses an encryption method to prevent the hacker from accessing the file/message from the sender. This is created by using an input and out stream that is then connected to the downloadable file/message. The encryption is an end-to-end encryption (using PAKE). PAKE additionally will prevent eavesdroppers. If anyone “listens in” on the information exchange, then all parties will end up with different strong keys and no one can decrypt anything between them, alerting the users that an eavesdropper is present.
+	Croc uses an encryption method to prevent the hacker from accessing the file/message from the sender. This is created by using an input and out stream that is then connected to the downloadable file/message. The encryption is an end-to-end encryption (using PAKE). PAKE additionally will prevent eavesdroppers. If anyone “listens in” on the information exchange, then all parties will end up with different strong keys and no one can decrypt anything between them, alerting the users that an eavesdropper is present.
 
 
 ### Part 2: 
