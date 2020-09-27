@@ -10,7 +10,7 @@
   ![Misuse of uploading phase](image/MisUseCase1.PNG)
   
   2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
-  ![Misuse of receivers passcode](image/MisuseCase2.png)
+  ![Misuse of receivers passcode](image/MisuseCase2F.png)
   
   3. User view reports **VS** attacker modifies the report by changing the app source code and embedding backdoors (Xing)
   ![Misuse of view report](image/MisUseCase3.png)
@@ -19,7 +19,7 @@
   ![Misuse of Enter Passcode](image/MisuseCase4.png)
   
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
-
+  ![Misuse of Download File](image/MisuseCase5F.png)
 
 * Assess alignment of security requirements derived from mis-use case analysis with advertised features of the open-source software. Review OSS project documentation and         codebase to support your observations. 
 
@@ -29,7 +29,7 @@
  
 2. Sender chooses passcode **VS** attackers attempts to upload his own malicious document, then sends code to malicious document to unsuspecting users. (Adam)
 	
-	In this scenario, the attacker is attempting to download the uploaded file from the sender.  However, he is not the intended recipient of the file, and as such have the appropriate passcode.  Because of this, his attempts to download the file is rejected.  Upon entering the wrong passcode, the system does not associate what the attacker types in with the file he desires.
+	In this scenario, the attacker is attempting to decrypt the data.  The user has selected his passcode which initiates the encryption process, but this is threatend by the attackers decryption.  The User moves to use a core function of Croc, which is the secure passcode generation tool, which generates a passcode more secure than a passcode selected by a normal user.  Now that the passcode blocks the attacker, the attacker can attempt to bypass the entire passcode authentification process.  However, if the User specifies a specific IP Address for who he wants the Receiver to be, then the peer-peer download process becomes secure as Croc will only accept a user from that specific IP address to download the file.  
 
 3. User view reports **VS** attacker accesses the report and decrypt report's passcode (Xing)
 
