@@ -37,7 +37,7 @@
   
 4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
 
-	Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique Port" and what it referred to as "Port Designation " gateways. The case shows how the attacker tries to use stolen and random password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
+	Further analysis of mis-use case with reference to case 4 – Croc security features and capabilities was able to securely gate an attacker that enters randomly generated passcode or stolen passcode by utilizing its "specify unique Port" and what it referred to as "Port Designation " gates. The case shows how the attacker tries to use stolen and random password to gain accessto system information but was unsuccessful and system returned "failed authentication" error message. However, the code review indicates that there was no line of code that handles frequency of “failed attempts” to block repeated passcode after a certain number of tries. 
 
 5. Receiver attempts to download file VS attacker attempts to change/swap file. (Ernesto)
 
@@ -68,7 +68,7 @@
 	   Another security related issue was logged approximately 24 days ago with the subject “Better UX for wrong password with issue #237. The issue is related to passcode 	   authentication but the user was able to detect that Croc error message concerning the passcode authentication attempt failed attempt message reads “connecting...                [error]2020/09/03 21:17:41 croc.go:565: ips unmarshal error: invalid character '\x01' looking for beginning of value securing channel...[error]2020/09/03 21:17:42 		   compress.go:46: error copying data: unexpected EOF problem with decoding: unexpected end of JSON input”
 	   
 	   According to the issue log, this messaging needed to be corrected and updated accordingly to enable user better optimize Croc. The user suggestion was to have Croc,
-	   display a short error message “invalid or wrong password” which enable users to clearly distinguish the cause of the issue.
+	   display a short error message “invalid or wrong password” which enable users to clearly distinguish the cause of the authentication failure.
 
 	
 	5. [Improving DOS protection and preventing channel ID collisions:](https://github.com/schollz/croc/issues/261)
