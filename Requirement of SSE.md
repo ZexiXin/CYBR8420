@@ -16,7 +16,7 @@
   ![Misuse of view report](image/MisUseCase3.png)
  
   4. Receiver enters generated passcode **VS** attacker attempts to enter random passcode or stolen Passcode. (Dennis)
-  ![Misuse of Enter Passcode](image/MisUseCase4F.png)
+  ![Misuse of Enter Passcode](image/MisUseCase4E.png)
   
   5. Receiver attempts to download file **VS** attacker attempts to change/swap file.
   ![Misuse of Download File](image/MisUseCase5F.png)
