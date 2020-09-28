@@ -76,7 +76,7 @@
 	   Problem with the DOS protection, problem with word list only containing 1600 words and these words have only 900 three beginning characters. A Birthday generated                password may contain an issue. One such solution is making the magic wormhole. Or adding a numeric password generated algorithm with the already existing world list            making the password generated combinations into O(n^2)  instead of O(n) making the password generated combinations much harder to have a channel ID collection. 
 
 * Internal collaboration link:  
-  [Google doc shared folder](https://drive.google.com/drive/folders/1KaGGMMrWPBGJOGmv-B71ekzhYPtE84PG)  
+  [Google doc shared folder](https://docs.google.com/document/d/1RNjo0B2nqTEVmV74BUeL3rUyLTpLzrr7ZCfBDvtYeYs/edit?usp=sharing)  
   [Github project board](https://github.com/ZexiXin/CYBR8420/projects/1)
 
 
