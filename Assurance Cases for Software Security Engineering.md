@@ -20,3 +20,8 @@
  * Assess the alignment of the evidence you identified in your diagrams, with that available (or can be made available) from the OSS project. Highlight the gaps.
  * Include a link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. 
  * Include a reflection of your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? 
+
+
+Collaborations:
+Via Zoom Meetings
+Via Google Docs https://docs.google.com/document/d/1Vv0kSrD5M8hSyjTQmaJnvpghe5GGj-RwnCdF9dxKRZU/edit?usp=sharing
