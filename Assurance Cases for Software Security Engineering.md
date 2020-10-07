@@ -8,6 +8,7 @@
    2. Generate Passcode  
    3. View report - Higher risk claim 3: Transferring files/messages in Croc will not leak any user’s personal information.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
+      ![](/image/AssuranceCase3.png)
    4. Enterpasscode - Sender or croc provides a weak algorithm passcode for potential vulnerabilities.  
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
   5. Download   
