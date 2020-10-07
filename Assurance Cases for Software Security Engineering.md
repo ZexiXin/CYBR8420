@@ -3,14 +3,15 @@
 
 
 ## Part 1
-   1. Upload  - Uploaded files to Croc are not accessible by un-Authorized users
-   [LucidChart Link](https://app.lucidchart.com/invitations/accept/7079316e-3b01-42e8-bbcb-bd587a221f16)
+   1. Upload - Uploaded files to Croc are not accessible by un-Authorized users.
+      [LucidChart Link](https://app.lucidchart.com/invitations/accept/7079316e-3b01-42e8-bbcb-bd587a221f16)
    2. Generate Passcode  
-   3. View report - Higher risk claim 3: Transferring files/messages in Croc will not leak any user’s personal information  
+   3. View report - Higher risk claim 3: Transferring files/messages in Croc will not leak any user’s personal information.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
-   4. Enterpasscode   
-   5. Download   
-   [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
+   4. Enterpasscode - Sender or croc provides a weak algorithm passcode for potential vulnerabilities.  
+      [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
+  5. Download   
+      [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
    
   
 
