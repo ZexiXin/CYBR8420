@@ -23,6 +23,9 @@
  * Include a link to your team GitHub repository that shows your internal project task assignments and collaborations to finish this task. 
  * Include a reflection of your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? 
 
+### Reflection:
+
+   This section had the team taking a more "divide and conquer" approach, with less direct collaboration on each diagram and more individualized work.  Team insights and review were still readily available nonetheless.  One issue that occurred was a general misunderstanding of how to approach the "evidence" portions of the assurance cases, but this misunderstanding was clarified by the professor during our deliverable team check-in.   This section we also converged our team meetings into a regular occurring event, with less effort to plan meetings because they were already pre-scheduled.  Moving forward, we plan finalize rough draft documents sooner so that there is less work needed towards the end of the assignment period.
 
 Collaborations:
 Via Zoom Meetings
