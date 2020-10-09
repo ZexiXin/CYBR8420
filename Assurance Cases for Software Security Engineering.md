@@ -13,7 +13,7 @@
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
   5. Download   
       [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
-      (/image/AssuranceCase5.png)
+      ![](/image/AssuranceCase5.png)
   
 
 
