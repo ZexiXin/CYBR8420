@@ -61,10 +61,10 @@
  
  
 #### Assurance Case 5:
-* Evidence E1: Croc readme: Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process
+* Evidence E1: Croc readme- Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process
 * Evidence E2: Croc configuration: Croc does not require a server or port forwarding. File transfers can be easier by eliminating the need for hosting a server or port forwarding. And using a relay server allows any two computers to connect to one another without resorting to port forwarding or fiddling with a server.  
-* Evidence E3: Relay functions: Croc use a relay server to create a full-duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers, and then files can be download safely.
-* Evidence E4: Croc requirements:  Croc parameter input field requirements. It is written in the user guide that each command and parameter has a designated function, and bad goals cannot be achieved by tampering with the command.
+* Evidence E3: Relay functions- Croc use a relay server to create a full-duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers, and then files can be download safely.
+* Evidence E4: Croc requirements- Croc parameter input field requirements. It is written in the user guide that each command and parameter has a designated function, and bad goals cannot be achieved by tampering with the command.
 * Evidence E5: Croc report: Croc provides a user guide to ensure that users can use the software normally. Reduce the misuse rate and strengthen the security of the software
 
  
