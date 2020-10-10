@@ -34,6 +34,14 @@
 * E3: Croc Readme – To qualify the quality of the generated passcode is trickier to prove due to the more qualitative nature of the feature.  The readme file on the project github page showcases this feature, but the degree to which it satisfies the security requirement is less clear.  The feature and the requirement align, but the documentation does not provide quite enough detail to prove that the codes are indeed “hard-to-crack”.
 * E4: Croc Project Owner Blog – The OSS project documentation on github directly links to an ongoing blog from the projects foremost contributor.  Here, he writes about more environmental aspects about the usage of Croc.  Rebuttal R5 relates to the environment of the users because Croc itself is not a communication channel one could use to easily send a passcode to an intended user.  The Project Owner Blog discusses this type of usage. The documentation, the feature, and the security requirement are aligned.
 
+
+#### Assurance Case 2:
+•	E1: Croc user guide - 
+•	E2: Screenshot of Passcode in Croc - 
+•	E3: Screenshot of UI - 
+•	E4: Croc activity log -  with passcode weakness status
+
+
 #### Assurance Case 3:
 
 * Evidence E1: Croc download URL - Croc download URL - Croc has provided a specific download URL which contains the most recent Corc version v8.2.0, and the Croc developed just   released it 6 days ago. Hence, the instruction and the security requirement are aligned.  
