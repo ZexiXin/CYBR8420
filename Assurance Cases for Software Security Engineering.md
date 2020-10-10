@@ -11,7 +11,7 @@
       ![](/image/AssuranceCase2d1.png)
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
-      ![](/image/AssuranceCase3-5.png)
+      ![](/image/AssuranceCase3-6.png)
    4. Enterpasscode - Croc insures a stong generated passcode to prevent potential vulnerabilities.
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
       ![](/image/AssuranceCase-4.jpeg)
