@@ -50,7 +50,7 @@
 
  #### Assurance Case 4:
  
-* E1: Evidence Crocs usage guide If sender passcode is weak(Not sufficient) then passcode prompt will appear on the screen, hence giving the user a warning message of passcode not being strong enough.
+* E1: Evidence Crocs usage guide- If sender passcode is weak(Not sufficient) then passcode prompt will appear on the screen, hence giving the user a warning message of passcode not being strong enough.
 
 * E2: Crocs read me file- PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
 
