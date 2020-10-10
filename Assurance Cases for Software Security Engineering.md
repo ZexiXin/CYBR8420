@@ -14,8 +14,7 @@
       ![](/image/AssuranceCase3-4.png)
    4. Enterpasscode - Croc insures a stong generated passcode to prevent potential vulnerabilities.
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
-      ![](/image/AssuranceCase-4.png)
-      [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
+      ![](/image/AssuranceCase-4.jpeg)
   5. Download - Croc can download multiple files/messages at the same time without compromise.
       [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
       ![](/image/AssuranceCase5F.png)
