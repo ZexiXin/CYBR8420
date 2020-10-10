@@ -6,7 +6,7 @@
    1. Upload - Uploaded files to Croc are not accessible by un-Authorized users.
       [LucidChart Link](https://app.lucidchart.com/invitations/accept/7079316e-3b01-42e8-bbcb-bd587a221f16)
       ![](/image/AssuranceCase1F.jpeg)
-   2. Generate Passcode - Croc ensures automatic passcode generation or manually enter passcode 
+   2. Generate Passcode - Croc can improve secure file transfer by using passcode generation mechanism 
       [LucidChart Link](https://app.lucidchart.com/lucidchart/c93b562a-a307-4b1d-aeba-0374937dd24c/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
       ![](/image/AssuranceCase2.png)
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
