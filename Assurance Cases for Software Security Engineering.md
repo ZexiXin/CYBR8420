@@ -8,7 +8,7 @@
       ![](/image/AssuranceCase1F.jpeg)
    2. Generate Passcode - Croc can improve secure file transfer by using passcode generation mechanism 
       [LucidChart Link](https://app.lucidchart.com/lucidchart/c93b562a-a307-4b1d-aeba-0374937dd24c/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
-      ![](/image/AssuranceCase2.png)
+      ![](/image/AssuranceCase2d1.png)
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
       ![](/image/AssuranceCase3-5.png)
