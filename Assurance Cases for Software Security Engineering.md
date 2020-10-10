@@ -47,6 +47,17 @@
 
 * Evidence E6: Croc requirements - While the user downloads the Croc, Croc is requiring the user to install itself into a normal directory which the user has full access to,     but the other users who share the same devices with the user don’t have access to. Hence, if a user can send a file/message to the other folks in the network, he ought to       have full access to the Croc directory. Hence, the instruction and the security requirement are aligned.
 
+ #### Assurance Case 4:
+ 
+* E1: Evidence created by me- If senders Passcode is weak(Not Sufficient) then Passcode prompt will appear on the screen, hence giving the user warning message of passcode not being strong enough.
+
+* E2:Croc Project Owner Blog- PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
+
+* E3: Evidence created by me- If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
+
+ 
+ 
+ 
  
 #### Assurance Case 5:
 * Evidence E1: Croc readme: Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process
