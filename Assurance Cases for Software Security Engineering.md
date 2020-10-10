@@ -32,23 +32,18 @@
 * E4: Croc Project Owner Blog – The OSS project documentation on github directly links to an ongoing blog from the projects foremost contributor.  Here, he writes about more environmental aspects about the usage of Croc.  Rebuttal R5 relates to the environment of the users because Croc itself is not a communication channel one could use to easily send a passcode to an intended user.  The Project Owner Blog discusses this type of usage. The documentation, the feature, and the security requirement are aligned.
 
 #### Assurance Case 3:
-* Evidence E1: Croc download URL:
-* Evidence E2: Corc -help:
-* Evidence E3: Self-host relay process:
-* Evidence E4: Report in the Croc directory: 
-* Evidence E5: Croc Dockerfile:
-* Evidence E6: Croc requirements:
 
-#### Assurance Case 4:
-* Evidence E1: Evidence created by me: If senders Passcode is weak(Not Sufficient) then Passcode prompt will appear on the screen, hence giving the user warning message of passcode not being strong enough.
-* Evidence E2: Croc Project Owner Blog: PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
-* Evidence E3: Evidence created by me: If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
+* Evidence E1: Croc download URL - Croc download URL - Croc has provided a specific download URL which contains the most recent Corc version v8.2.0, and the Croc developed just   released it 6 days ago. Hence, the instruction and the security requirement are aligned.  
 
+* Evidence E2: Corc -help: Corc -help - “Croc -help” is a command line syntax which will list all available commands in Croc UI and provides detailed instructions for each       command. One of the most powerful commands is specifying handshaking protocol like TCP (TCP.go has been fully developed in the /src directory) during files or messages         transferring. Hence, the instruction and the security requirement are aligned.  
 
+* Evidence E3: Self-host relay process- The self host relay process is a security function that can forcibly designate a port number between sender and receiver while             transferring files or messages. However, it does not have passcode protection because the relay function never transfers passcode through the network. Hence, even though the   Relay function can set a specific tunnel to protect the file transmission, it cannot provide passcode protection because we don’t know how the sender will hand out the         passcode. Therefore, the basic file transmission can be guaranteed, but the Relay function hasn’t developed a passcode transmission function.  
 
+* Evidence E4: Report in the Croc directory - Every time when a user initiates a file or message to the others. Croc will automatically generate a transmission summary inside     of Croc directory to let the user verify what exactly he/she has sent to the receiver.  Hence, the instruction and the security requirement are aligned.  
 
+* Evidence E5: Croc Dockerfile - Croc Dockerfile has almost everything that Relay function has, so Dockerfile can maintain the files/messages transmission security as well.       Besides, Croc Dockfile’s command line syntax provides an extra parameter to transfer passcode and sender’s through the network. In this case, Dockfile complements Relay         functions’ shortcomings by adding passcode transmission functions. Nevertheless, when we explore the internal code view of Dockfile even its command line syntax, we didn’t     find any cryptographic algorithm to protect passcode transferring. As a result, the basic transmission and passcode transmission can be guaranteed, but the passcode             protection mechanism has been fully developed.   
 
-
+* Evidence E6: Croc requirements - While the user downloads the Croc, Croc is requiring the user to install itself into a normal directory which the user has full access to,     but the other users who share the same devices with the user don’t have access to. Hence, if a user can send a file/message to the other folks in the network, he ought to       have full access to the Croc directory. Hence, the instruction and the security requirement are aligned.
 
  
 #### Assurance Case 5:
