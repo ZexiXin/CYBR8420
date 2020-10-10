@@ -36,10 +36,13 @@
 
 
 #### Assurance Case 2:
-•	E1: Croc user guide - 
-•	E2: Screenshot of Passcode in Croc - 
-•	E3: Screenshot of UI - 
-•	E4: Croc activity log -  with passcode weakness status
+* E1: Croc user guide - 
+
+* E2: Screenshot of Passcode in Croc - 
+
+* E3: Screenshot of UI - 
+
+* E4: Croc activity log -  with passcode weakness status
 
 
 #### Assurance Case 3:
