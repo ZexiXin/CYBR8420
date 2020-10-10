@@ -8,10 +8,10 @@
       ![](/image/AssuranceCase1F.jpeg)
    2. Generate Passcode - Croc can improve secure file transfer by using passcode generation mechanism 
       [LucidChart Link](https://app.lucidchart.com/lucidchart/c93b562a-a307-4b1d-aeba-0374937dd24c/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
-      ![](/image/AssuranceCase2d.png)
+      ![](/image/AssuranceCase2.png)
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
-      ![](/image/AssuranceCase3-5.png)
+      ![](/image/AssuranceCase3-4.png)
    4. Enterpasscode - Croc insures a stong generated passcode to prevent potential vulnerabilities.
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
       ![](/image/AssuranceCase-4.jpeg)
@@ -50,11 +50,11 @@
 
  #### Assurance Case 4:
  
-* E1: Evidence created by me- If senders Passcode is weak(Not Sufficient) then Passcode prompt will appear on the screen, hence giving the user warning message of passcode not being strong enough.
+* E1: Evidence Crocs usage guide If sender passcode is weak(Not sufficient) then passcode prompt will appear on the screen, hence giving the user a warning message of passcode not being strong enough.
 
-* E2:Croc Project Owner Blog- PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
+* E2: Crocs read me file- PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
 
-* E3: Evidence created by me- If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
+* E3: Crocs usage guide- If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
 
  
  
