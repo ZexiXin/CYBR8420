@@ -36,47 +36,47 @@
 
 
 #### Assurance Case 2:
-* E1: Croc user guide - same evidence as shown in E2 above for Case 1.
+* E1: Croc user guide - Same evidence as shown in E2 above for Case 1.
 
-* E2: Screenshot of Passcode in Croc - this image shows the evidence that details the system generated passcode. Croc system automatically generated passcode and assign it to file or document pending for transfer by the user.
+* E2: Screenshot of Passcode in Croc - This image shows the evidence that details the system generated passcode. Croc system automatically generated passcode and assign it to file or document pending for transfer by the user.
 
-* E3: Screenshot of UI - this user interface (UI) imahe provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
+* E3: Screenshot of UI - This user interface (UI) imahe provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
 
-* E4: Croc activity log -  this evidence proof that croc keeps track sender and recipient port numbers to ensure the integrity of file or document been transferred are not compromised. However, the activity log does not show failed attempted passcode for each file or by unauthorized user attempting to access unauthorized file or document. This is we this is an identified gap – activity log should show activity log of user trying to access unauthorized files by user.
+* E4: Croc activity log -  This evidence proof that croc keeps track sender and recipient port numbers to ensure the integrity of file or document been transferred are not compromised. However, the activity log does not show failed attempted passcode for each file or by unauthorized user attempting to access unauthorized file or document. This is we this is an identified gap – Activity log should show activity log of user trying to access unauthorized files by user.
 
 
 #### Assurance Case 3:
 
-* Evidence E1: Croc download URL - Croc download URL - Croc has provided a specific download URL which contains the most recent Corc version v8.2.0, and the Croc developed just   released it 6 days ago. Hence, the instruction and the security requirement are aligned.  
+* E1: Croc download URL - Croc download URL - Croc has provided a specific download URL which contains the most recent Corc version v8.2.0, and the Croc developed just   released it 6 days ago. Hence, the instruction and the security requirement are aligned.  
 
-* Evidence E2: Corc -help: Corc -help - “Croc -help” is a command line syntax which will list all available commands in Croc UI and provides detailed instructions for each       command. One of the most powerful commands is specifying handshaking protocol like TCP (TCP.go has been fully developed in the /src directory) during files or messages         transferring. Hence, the instruction and the security requirement are aligned.  
+* E2: Corc -help: Corc -help - “Croc -help” is a command line syntax which will list all available commands in Croc UI and provides detailed instructions for each       command. One of the most powerful commands is specifying handshaking protocol like TCP (TCP.go has been fully developed in the /src directory) during files or messages         transferring. Hence, the instruction and the security requirement are aligned.  
 
-* Evidence E3: Self-host relay process- The self host relay process is a security function that can forcibly designate a port number between sender and receiver while             transferring files or messages. However, it does not have passcode protection because the relay function never transfers passcode through the network. Hence, even though the   Relay function can set a specific tunnel to protect the file transmission, it cannot provide passcode protection because we don’t know how the sender will hand out the         passcode. Therefore, the basic file transmission can be guaranteed, but the Relay function hasn’t developed a passcode transmission function.  
+* E3: Self-host relay process - The self host relay process is a security function that can forcibly designate a port number between sender and receiver while             transferring files or messages. However, it does not have passcode protection because the relay function never transfers passcode through the network. Hence, even though the   Relay function can set a specific tunnel to protect the file transmission, it cannot provide passcode protection because we don’t know how the sender will hand out the         passcode. Therefore, the basic file transmission can be guaranteed, but the Relay function hasn’t developed a passcode transmission function.  
 
-* Evidence E4: Report in the Croc directory - Every time when a user initiates a file or message to the others. Croc will automatically generate a transmission summary inside     of Croc directory to let the user verify what exactly he/she has sent to the receiver.  Hence, the instruction and the security requirement are aligned.  
+* E4: Report in the Croc directory - Every time when a user initiates a file or message to the others. Croc will automatically generate a transmission summary inside     of Croc directory to let the user verify what exactly he/she has sent to the receiver.  Hence, the instruction and the security requirement are aligned.  
 
-* Evidence E5: Croc Dockerfile - Croc Dockerfile has almost everything that Relay function has, so Dockerfile can maintain the files/messages transmission security as well.       Besides, Croc Dockfile’s command line syntax provides an extra parameter to transfer passcode and sender’s through the network. In this case, Dockfile complements Relay         functions’ shortcomings by adding passcode transmission functions. Nevertheless, when we explore the internal code view of Dockfile even its command line syntax, we didn’t     find any cryptographic algorithm to protect passcode transferring. As a result, the basic transmission and passcode transmission can be guaranteed, but the passcode             protection mechanism has been fully developed.   
+* E5: Croc Dockerfile - Croc Dockerfile has almost everything that Relay function has, so Dockerfile can maintain the files/messages transmission security as well.       Besides, Croc Dockfile’s command line syntax provides an extra parameter to transfer passcode and sender’s through the network. In this case, Dockfile complements Relay         functions’ shortcomings by adding passcode transmission functions. Nevertheless, when we explore the internal code view of Dockfile even its command line syntax, we didn’t     find any cryptographic algorithm to protect passcode transferring. As a result, the basic transmission and passcode transmission can be guaranteed, but the passcode             protection mechanism has been fully developed.   
 
-* Evidence E6: Croc requirements - While the user downloads the Croc, Croc is requiring the user to install itself into a normal directory which the user has full access to,     but the other users who share the same devices with the user don’t have access to. Hence, if a user can send a file/message to the other folks in the network, he ought to       have full access to the Croc directory. Hence, the instruction and the security requirement are aligned.
+* E6: Croc requirements - While the user downloads the Croc, Croc is requiring the user to install itself into a normal directory which the user has full access to,     but the other users who share the same devices with the user don’t have access to. Hence, if a user can send a file/message to the other folks in the network, he ought to       have full access to the Croc directory. Hence, the instruction and the security requirement are aligned.
 
  #### Assurance Case 4:
  
-* E1: Evidence Crocs usage guide- If sender passcode is weak(Not sufficient) then passcode prompt will appear on the screen, hence giving the user a warning message of passcode not being strong enough.
+* E1: Crocs usage guide - If sender passcode is weak(Not sufficient) then passcode prompt will appear on the screen, hence giving the user a warning message of passcode not being strong enough.
 
-* E2: Crocs read me file- PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
+* E2: Crocs read me file - PAKE is a cryptographic method where two people share a password which is then used – via back-and-forth communication – to generate a strong key. The strong key can then be used for all further encryption. Since the two people generate the strong key by exchanging information, no one else could possibly learn the strong key even if they have the original password.
 
-* E3: Crocs usage guide- If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
+* E3: Crocs usage guide - If a user sends a strong passcode, but the receiver does not type in the correct passcode a prompt message will appear on the screen to the receiver, hence incorrect passcode.
 
  
  
  
  
 #### Assurance Case 5:
-* Evidence E1: Croc readme- Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process.
-* Evidence E2: Croc configuration: Croc does not require a server or port forwarding. File transfers can be easier by eliminating the need for hosting a server or port forwarding. And using a relay server allows any two computers to connect to one another without resorting to port forwarding or fiddling with a server.  
-* Evidence E3:  Croc requirements- Croc parameter input field requirements. It is written in the user guide that each command and parameter has a designated function, and bad goals cannot be achieved by tampering with the command.
-* Evidence E4: Relay functions- Croc use a relay server to create a full-duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers, and then files can be download safely.
-* Evidence E5: Croc report: Croc provides a user guide to ensure that users can use the software normally. Reduce the misuse rate and strengthen the security of the software.
+* E1: Croc readme - Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process.
+* E2: Croc configuration - Croc does not require a server or port forwarding. File transfers can be easier by eliminating the need for hosting a server or port forwarding. And using a relay server allows any two computers to connect to one another without resorting to port forwarding or fiddling with a server.  
+* E3:  Croc requirements - Croc parameter input field requirements. It is written in the user guide that each command and parameter has a designated function, and bad goals cannot be achieved by tampering with the command.
+*  E4: Relay functions - Croc use a relay server to create a full-duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers, and then files can be download safely.
+* E5: Croc report - Croc provides a user guide to ensure that users can use the software normally. Reduce the misuse rate and strengthen the security of the software.
 
  
 
