@@ -4,19 +4,19 @@
 
 ## Part 1
    1. Upload - Uploaded files to Croc are not accessible by un-Authorized users.
-      [LucidChart Link](https://app.lucidchart.com/invitations/accept/7079316e-3b01-42e8-bbcb-bd587a221f16)
+      <!--[LucidChart Link](https://app.lucidchart.com/invitations/accept/7079316e-3b01-42e8-bbcb-bd587a221f16)-->
       ![](/image/AssuranceCase1F.jpeg)
    2. Generate Passcode - Croc can improve secure file transfer by using passcode generation mechanism 
-      [LucidChart Link](https://app.lucidchart.com/lucidchart/c93b562a-a307-4b1d-aeba-0374937dd24c/edit?shared=true&page=0_0#?folder_id=home&browser=icon)
+      <!--[LucidChart Link](https://app.lucidchart.com/lucidchart/c93b562a-a307-4b1d-aeba-0374937dd24c/edit?shared=true&page=0_0#?folder_id=home&browser=icon)-->
       ![](/image/AssuranceCase2d1.png)
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
-      [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
+      <!--[Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)-->
       ![](/image/AssuranceCase3-7.png)
    4. Enterpasscode - Croc insures a stong generated passcode to prevent potential vulnerabilities.
-      [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
+      <!--[Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)-->
       ![](/image/AssuranceCase-4.jpeg)
   5. Download - Croc can download multiple files/messages at the same time without compromise.
-      [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
+      <!--[Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )-->
       ![](/image/AssuranceCase5G.png)
   
 
