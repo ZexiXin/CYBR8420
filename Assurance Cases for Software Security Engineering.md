@@ -23,11 +23,8 @@
 
 
 ## Part 2
- * Assess the alignment of the evidence you identified in your diagrams, with that available (or can be made available) from the OSS project. Highlight the gaps.
+ 
 
- 
- 
- 
 #### Assurance Case 1:
 * E1: Croc Usage Guide – The usage guide is a descriptive section within the Croc OSS documentation on github and shows both usage parameters and step-by-step instructions with illustrations.  The commands for initiating Croc’s strengthened, secret key are found here alongside a number of configurable options while doing so.  The documentation, the feature, and the security requirement are aligned.  
 * E2: Croc Usage Guide – The usage guide once again demonstrates, and shows illustrations, of the enforcement of the passcode prompt.  There is no way to use Croc without designating a manual, or algorithmically generated, passcode. The documentation, the feature, and the security requirement are aligned.  
@@ -88,7 +85,6 @@
 
 
 ### Reflection:
-* Include a reflection of your teamwork for this assignment. What issues occurred? How did you resolve them? What did you plan to change moving forward? 
 
    This section had the team taking a more "divide and conquer" approach, with less direct collaboration on each diagram and more individualized work.  Team insights and review were still readily available nonetheless.  One issue that occurred was a general misunderstanding of how to approach the "evidence" portions of the assurance cases, but this misunderstanding was clarified by the professor during our deliverable team check-in.   This section we also converged our team meetings into a regular occurring event, with less effort to plan meetings because they were already pre-scheduled.  Moving forward, we plan finalize rough draft documents sooner so that there is less work needed towards the end of the assignment period.
    
