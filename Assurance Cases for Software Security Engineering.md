@@ -12,7 +12,7 @@
    3. View report - Higher risk claim 3: Croc minimizes the sensitive information leakage while transferring files/messages.  
       [Lucidchart](https://app.lucidchart.com/documents/edit/b5b8e48e-4509-4c06-af8e-b96f973c6692/0_0#?folder_id=home&browser=icon)
       ![](/image/AssuranceCase3-6.png)
-   4. Enterpasscode - Croc prevents weak passcode usage to ensure access control.
+   4. Enterpasscode - Croc insures a stong generated passcode to prevent potential vulnerabilities.
       [Lucidchart](https://app.lucidchart.com/invitations/accept/3f2f4c62-431d-4c30-9084-83a1b404ebd7)
       ![](/image/AssuranceCase-4.jpeg)
   5. Download - Croc can download multiple files/messages at the same time without compromise.
@@ -38,7 +38,7 @@
 #### Assurance Case 2:
 * E1: Croc user guide - same evidence as shown in E2 above for Case 1.
 
-* E2: Screenshot of Passcode in Croc - this is image shows evidence that details the system generated passcode. Croc system can automatically generated passcode.
+* E2: Screenshot of Passcode in Croc - this image shows the evidence that details the system generated passcode. Croc system automatically generated passcode and assign it to file or document pending for transfer by the user.
 
 * E3: Screenshot of UI - this is user interface (UI) provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to system user.
 
