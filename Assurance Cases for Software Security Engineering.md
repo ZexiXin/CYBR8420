@@ -40,7 +40,7 @@
 
 * E2: Screenshot of Passcode in Croc - this image shows the evidence that details the system generated passcode. Croc system automatically generated passcode and assign it to file or document pending for transfer by the user.
 
-* E3: Screenshot of UI - this is user interface (UI) provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
+* E3: Screenshot of UI - this user interface (UI) imahe provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
 
 * E4: Croc activity log -  with passcode weakness status
 
