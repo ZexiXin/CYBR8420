@@ -40,7 +40,7 @@
 
 * E2: Screenshot of Passcode in Croc - This image shows the evidence that details the system generated passcode. Croc system automatically generated passcode and assign it to file or document pending for transfer by the user.
 
-* E3: Screenshot of UI - This user interface (UI) imahe provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
+* E3: Screenshot of UI - This user interface (UI) image provide evidence of the weakness or strength of mananually generated passcode by a user. Croc system displays one of the following passcode alert message “Weak Passcode” or “Strong Passcode” or “Passcode Mismatch” to the system user.
 
 * E4: Croc activity log -  This evidence proof that croc keeps track sender and recipient port numbers to ensure the integrity of file or document been transferred are not compromised. However, the activity log does not show failed attempted passcode for each file or by unauthorized user attempting to access unauthorized file or document. This is we this is an identified gap – Activity log should show activity log of user trying to access unauthorized files by user.
 
