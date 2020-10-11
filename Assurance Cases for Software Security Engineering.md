@@ -38,7 +38,7 @@
 #### Assurance Case 2:
 * E1: Croc user guide - 
 
-* E2: Screenshot of Passcode in Croc - 
+* E2: Screenshot of Passcode in Croc - this is image shows evidence that details the system generated passcode. Croc system can automatically generated passcode.
 
 * E3: Screenshot of UI - 
 
