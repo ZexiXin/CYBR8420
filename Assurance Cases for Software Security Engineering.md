@@ -17,7 +17,7 @@
       ![](/image/AssuranceCase-4.jpeg)
   5. Download - Croc can download multiple files/messages at the same time without compromise.
       [Lucidchart]( https://app.lucidchart.com/invitations/accept/6bb8951f-1d10-47c0-84ec-3351def6c628 )
-      ![](/image/AssuranceCase5F.png)
+      ![](/image/AssuranceCase5G.png)
   
 
 
@@ -70,10 +70,10 @@
  
 #### Assurance Case 5:
 * E1: Croc readme - Croc allows resuming transfers that are interrupted. All files can be restored during the interruption, so that the user files will not disappear. Of course, the security performance of Croc is further improved, that is, user files cannot be tampered with during the process.
-* E2: Croc configuration - Croc does not require a server or port forwarding. File transfers can be easier by eliminating the need for hosting a server or port forwarding. And using a relay server allows any two computers to connect to one another without resorting to port forwarding or fiddling with a server.  
-* E3:  Croc requirements - Croc parameter input field requirements. It is written in the user guide that each command and parameter has a designated function, and bad goals cannot be achieved by tampering with the command.
-*  E4: Relay functions - Croc use a relay server to create a full-duplex real-time communication layer between the two computers so that “uploading” and “downloading” occur simultaneously between the two computers, and then files can be download safely.
-* E5: Croc report - Croc provides a user guide to ensure that users can use the software normally. Reduce the misuse rate and strengthen the security of the software.
+* E2: Croc configuration - Croc does not require a server or port forwarding. File transfers can be easier by eliminating the need for hosting a server or port forwarding. And using a relay server allows any two computers to connect to one another without resorting to port forwarding or fiddling with a server. To effectively protect the back door.
+* E3:  Croc downloading - Here is a gap. If a hacker uploads a malicious file through some technical means, the user happens to download the malicious file again. Croc does not detect whether the file is malicious. If the file is malicious, the security of the software will be reduced. So, if Croc has this function, the security performance of the software will become better
+*  E4: Readme document -Here is a gap. If hackers use some technical means to change the Croc configuration, then Croc will become a tool in the hands of hackers at any time. With Croc, it is not possible to check whether the configuration is correct. If the configuration is malicious, the security of the software will be reduced. So, if Croc has this function, the security performance of the software will become better
+* E5: User guide- Croc provides a user guide to ensure that users can use the software normally. Reduce the misuse rate and strengthen the security of the software.
 
  
 
