@@ -1,9 +1,14 @@
-## Threat Modeling
-
-Draw and analyze the DFDs using the Microsoft Threat Modeling tool (TMT)
+# Designing for Software Security Engineering
 
 
-## Observation
+## Part 1: Threat Modeling
+
+* Draw and analyze the DFDs using the Microsoft Threat Modeling tool (TMT)
+* Generate a full HTML report using TMT
+* Host the HTML reports in your project github repo and link from your markdown submission.
+
+
+## Part 2: Observation
 
 
 ### Summarization
