@@ -7,7 +7,11 @@
 * Generate a full HTML report using TMT
 * Host the HTML reports in your project github repo and link from your markdown submission.
 
-
+1. 
+2. 
+3. [The DFD of Generating File Report in the Croc](https://htmlpreview.github.io/?https://github.com/ZexiXin/CYBR8420/blob/master/DFD%20report/The%20DFD%20of%20Generating%20File%20Report%20in%20Croc.htm)
+4. 
+5. 
 ## Part 2: Observation
 
 
