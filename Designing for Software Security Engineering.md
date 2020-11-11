@@ -23,7 +23,7 @@
 
 ### Internal Collaboration
 [Google Doc](https://docs.google.com/document/d/12EbnDpuQff2Qv3mEIP6GIVfT_WmlxSaez4pV_MRjUlI/edit?usp=sharing)  
-[Project Board]()
+[Project Board](https://github.com/ZexiXin/CYBR8420/projects/1)
 
 
 ### Reflection
