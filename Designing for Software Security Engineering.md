@@ -35,4 +35,6 @@ Level 1: Level 1 contains major process and stored identifies this includes exte
 
 We then used analyzed view for Level 0 and Level 1 DFD (Data flow Diagram) as a team and created one generated scenario for the whole system, as well as the justification and priority for each case. Lastly a full report was created for each level using Microsoft threat modeling repot tool located on the top left corner.  A HTML Report is automatically created and fully functional for the viewer to see each case scenario as well as threat model summary and number of states used.
 
+Based on feedback from the professor, we decided to merge all diagrams into one in order to curb redundancy.  After doing this, we still had upwards of 200+ generated threats which made things difficult to process.  During this period there were also some personal changes.  Adam and his wife Yara spent a week in the hospital after the birth of their firstborn son Leon, and the subsequent week after has many sleepless nights adjusting to a new lifestyle.
+
 
