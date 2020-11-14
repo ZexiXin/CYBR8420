@@ -33,7 +33,11 @@ Level 0: Level 0 contains single process representing the whole system this incl
 
 Level 1: Level 1 contains major process and stored identifies this includes external interactors which are senders and receivers. The main process (Code) is Croc, its main two data flows are uploading file/ message and download file/ message as well as generate passcode and regenerate passcode. The generated passcode is created by Croc. Crocs Data store is the peer to peer encryption algorithm, Croc uses to generated and decrypt passcode. For the sender to protect and assure his uploaded file/message is safe and secure and the receiver to ensure the file/message was downloaded between the two external interactors and Crocs processes. 
 
-We then used analyzed view for Level 0 and Level 1 DFD (Data flow Diagram) as a team and created one generated scenario for the whole system, as well as the justification and priority for each case. Lastly a full report was created for each level using Microsoft threat modeling repot tool located on the top left corner.  A HTML Report is automatically created and fully functional for the viewer to see each case scenario as well as threat model summary and number of states used.
+Level 2: Level 2 contains major process which is Croc Application 1.0 its external interactores are File Sender and Reciver. The Senders data flow are report and file, Fore Reciver the passcode and decrypter are the data flows.
+
+Network socket 2.0: Is the process and the data store is Croc File system , which is then connected using  data flow, file store comadn and file result set.
+
+We then used analyzed view for Level 0, Level 1 and Level 2 DFD (Data flow Diagram) as a team and created one generated scenario for the whole system, as well as the justification and priority for each case. Lastly a full report was created for each level using Microsoft threat modeling repot tool located on the top left corner.  A HTML Report is automatically created and fully functional for the viewer to see each case scenario as well as threat model summary and number of states used.
 
 Based on feedback from the professor, we decided to merge all diagrams into one in order to curb redundancy.  After doing this, we still had upwards of 200+ generated threats which made things difficult to process.  During this period there were also some personal changes.  Adam and his wife Yara spent a week in the hospital after the birth of their firstborn son Leon, and the subsequent week after has many sleepless nights adjusting to a new lifestyle.
 
