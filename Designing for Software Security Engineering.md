@@ -18,6 +18,7 @@
 
 
 ### Summarization
+Using DFD threat analysis, review your OSS project for design-related issues. Summarize your observations, in particular, highlight the gaps.
 
 
 ### Internal Collaboration
