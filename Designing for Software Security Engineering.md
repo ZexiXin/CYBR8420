@@ -3,16 +3,8 @@
 
 ## Part 1: Threat Modeling
 
-* Draw and analyze the DFDs using the Microsoft Threat Modeling tool (TMT)
-* Generate a full HTML report using TMT
-* Host the HTML reports in your project github repo and link from your markdown submission.
+  [The DFD Report of Croc](https://htmlpreview.github.io/?https://github.com/ZexiXin/CYBR8420/blob/master/DFD%20report/DFD%20Report%20of%20Croc%20Version%202.htm)
 
-
-### [**Use this link to generate a Host view of your report**](https://htmlpreview.github.io/)
-
-1. [The DFD of Generating File Report in the Croc](https://htmlpreview.github.io/?https://github.com/ZexiXin/CYBR8420/blob/master/DFD%20report/DFD%20Report%20Croc.htm)
-<!-- 4. [The DFD of Generating Passcode in the Croc](https://htmlpreview.github.io/?https://github.com/ZexiXin/CYBR8420/blob/master/DFD%20report/Level%200%20Report.htm) -->
-<!-- 5. [The DFD of Downloading in the Croc](https://htmlpreview.github.io/?https://github.com/ZexiXin/CYBR8420/blob/master/DFD%20report/Download.htm) -->
 
 ## Part 2: Observation
 
