@@ -12,6 +12,9 @@
 ### Summarization
 Using DFD threat analysis, review your OSS project for design-related issues. Summarize your observations, in particular, highlight the gaps.
 
+ * After we reviewed our OOS project, we have found three main issues that Croc needs to take care of. First, Croc does not provide any network records, or the file                transferring logs to validate the file source. Next, Croc has not specified any remediations while its application and relative services stops, crashes, and halts.              Finally, neither Croc’s documentation or developer has described how Croc File System operates users’ files and even examined files’ content and size to see whether 
+   those files could jeopardize the Croc file system or not.
+
 
 ### Internal Collaboration
 [Google Doc](https://docs.google.com/document/d/12EbnDpuQff2Qv3mEIP6GIVfT_WmlxSaez4pV_MRjUlI/edit?usp=sharing)  
