@@ -4,9 +4,7 @@
 
 ## Part 1
   
-A short summary of your code review strategy.
-
-What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
+A short summary of your code review strategy.What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
 
 Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
