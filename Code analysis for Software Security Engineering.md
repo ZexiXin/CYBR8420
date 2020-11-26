@@ -6,12 +6,13 @@
   
 A short summary of your code review strategy.What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
 
-Each teammember reviewed fewer than 200 lines of code at a time.And analaysed and revied our code using SonarQuobe scanner tool  Take enough time for a proper, slow review, but not more than 60–90 minutes. Be sure that authors annotate source code before the review begins. Establish quantifiable goals for code review and capture metrics so you can improve your processes.
+Each teammember reviewed fewer than 200 lines of code at a time , and analaysed and revied our code using SonarQuobe scanner tool. SonarQuobe is a multi-platform software tool and contains more than 60 plugin extensions. It is compatible with more than 25 programming languages. After each individual analyzed 200 lines of code. We reviewed our code as a team and took the time to properly see if there were any defaults that need to be addressed or fixed.Our goal was to review and anayalis more then 500 lines a code per week and find any vulnerabilities issues or debugging the program might have. To do this we used SonarQuad scanner Tool for Golang. This allowed a fatser and more productive strategy for effective code inspection. This allowed to broaden our spectrum and allow for more effective and productive code review. Which ultimately allowed and improve the process of the code review.
 
 
 Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
 Findings from automated code scanning (if available). Include links to full reports.
+
 
 
 ## Part 2
