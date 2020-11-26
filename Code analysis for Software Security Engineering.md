@@ -6,6 +6,9 @@
   
 A short summary of your code review strategy.What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
 
+Each teammember reviewed fewer than 200 lines of code at a time.And analaysed and revied our code using  Take enough time for a proper, slow review, but not more than 60–90 minutes. Be sure that authors annotate source code before the review begins. Establish quantifiable goals for code review and capture metrics so you can improve your processes.
+
+
 Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
 Findings from automated code scanning (if available). Include links to full reports.
