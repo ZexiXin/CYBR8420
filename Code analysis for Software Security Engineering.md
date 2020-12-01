@@ -19,7 +19,7 @@ For the CWEs we choice as a team:
 
 we then created a team template using this spesific CWEs and began analyzing each croc file individually each croc fil to cover more ground (code).
 
- * Peer code review method (Light Review)
+Peer Code Review Method (Light Review)
 
 Each teammember reviewed fewer than 200 lines of code at a time , and analaysed and revied our code using SonarQuobe scanner tool. SonarQuobe is a multi-platform software tool and contains more than 60 plugin extensions. It is compatible with more than 25 programming languages. After each individual analyzed 200 lines of code. We reviewed our code as a team and took the time to properly see if there were any defaults that needed to be addressed or fixed.Our goal was to review and anayalis more then 500 lines a code per week and find any vulnerabilities issues or debugging the program might have. To do this we used SonarQuad scanner Tool for Golang. This allowed a fatser and more productive strategy for effective code inspection. This allowed to broaden our spectrum and allow for more effective and productive code review. Which ultimately allowed and improve the process of the code review.
 
