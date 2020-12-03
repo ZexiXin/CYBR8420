@@ -18,7 +18,7 @@ A short summary of your code review strategy.What challenges did you anticipate 
  
  
 ### -Code Review Checklists of Croc Application
-   * Reviewer: Zexi Xing
+   * Reviewer: Zexi Xing, Zidong Liu
    * Review Date: 12/02/2020
    * Application: Croc in-network file transferring system
 
