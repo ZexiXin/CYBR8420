@@ -94,4 +94,6 @@ Planned or ongoing contributions to the upstream open-source project (documentat
 
 
 ### Reflection:
-
+At first, we were confused about the classification of CWE. Originally, we wanted to use the "Class" category to represent the vulnerability description. Later, after discussion in our group, we found that we should refine the CWE to the lowest level.
+For code review, we did not have any strategy to cause a huge workload, but after meeting with the professor, we had our own ideas and strategies. We should start with the previous work, starting with use cases and misuse cases, because we have previously analyzed where Croc has Gap, which will lead to Croc security flaws and vulnerable to attacks.
+For the use of automated tools, we have encountered difficulties. Our project language is mainly GO, but the current lack of code tools for GO language causes us to use only a few tools. However, these types of tools have high requirements on different platforms, which led us to spend a lot of time to solve this problem. In general, we don't need to spend too much time on tools, but spend more time on the defects of Croc itself, which will greatly reduce our code review time.
