@@ -54,6 +54,11 @@ A short summary of your code review strategy.What challenges did you anticipate 
   | Croc uses os.Open() to open the file and it is unsafe function. Hence, os.OpenFile() is a better choice | Use of Potentially Dangerous Function | CWE-676 | Functions | 
   | Only checked if the slice is nil, and empty slice has never been validated | Incorrect Check of Function Return Value | CWE-253 | Functions | 
   | Uncontrolled for loop which designed for finding the missing chunks of file is recursively calling an append () function | Uncontrolled Recursion & Excessive Iteration | CWE-834 & CWE-674 | Functions |
+  | Croc does not validate or incorrectly validates | Improper Validation of Specified Type of Input | CWE-1287 | Input validation | 
+  | Croc does not properly control the allocation and maintenance of a limited resource | leading to the exhaustion of available resources | CWE-400 | Resource |
+  | Croc does not neutralize or incorrectly neutralizes special elements  | Code Injection | CWE-94 | Input validation |
+  |The activity log does not show failed attempted passcode for each file | Improper Privilege Management | CWE-306 | Access control |
+  |improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
 
 
 
