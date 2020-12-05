@@ -4,25 +4,22 @@
 
 ## Part 1
   
-A short summary of your code review strategy.What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
+### A short summary of your code review strategy. What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
+
+  Based on those previous misuse cases, assurance cases, and threat models, we figured out that Croc has not provide proper protection on input validating and users’ authorized access control. Hence, we decided to first go through the code view to see if Croc’s functions do have some weaknesses that have been defined in CWE checklist.  To do this, our code review strategy was a checklist-based approach that leaned on some core CWEs we saw as probable vulnerabilities within Croc, while also being within the realm of programming concepts we were familiar with.  We started with the list of Top 25 CWEs, then expanded our usage of CWE references as we progressed through the code.  Each team member would review approximately 200 lines of code at a time, taken from core files within the Croc software environment.
+  
+	In previous deliverables for this project, we had identified that certain portions of Croc’s functionality might be more prone to vulnerabilities than others given their importance.  For example, a user interacting with Croc as a file sender or receiver does not have a great many options to interact with Croc other than basic input parameters.  So, input validation is a key factor (CWE-20).  Croc has no implementation for accounts or user authorization other than sourcing the sender or receiver to an IP address.  This led us to also focus on CWEs related to missing authorization (CWE-25) and authentication for critical functions (CWE-306).  Another aspect of Croc is the actual uploading and downloading of the user’s file, so CWEs like CWE-434 were also critical.  This process of reviewing past analysis of Croc and then mapping them to CWEs, then in turn scanning through the code and looking for related issues was our general approach to code review.
+  
+  A much more efficient method of Code Review, indicated by our professor in our latest team check-in, was to utilize a software scanning tool to generate a configured report which would then give us terms, faults, and problems which would help us in our manual code review.  But, as is written in a later section of this document, we had several troubles with setting up our automated tool.  We had tried on several occasions to get SonarQube, a popular scanning tool compatible with Go, to work but were unsuccessful.  This led us to lean more on manual code review.  So, for the manual code review, we used the extensive documentation found on https://cwe.mitre.org/ for various CWEs and applied them as a checklist for us to manually review Croc’s code
 
 
- * [3]	  CWE-20	Improper Input Validation
- * [24]	CWE-306	Missing Authentication for Critical Function
- * [25]	CWE-862	Missing Authorization
- * [15]	CWE-434	Unrestricted Upload of File with Dangerous Type
- * [7]	  CWE-200	Exposure of Sensitive Information to an Unauthorized Actor
- * [32]	CWE-401	Missing Release of Memory after Effective Lifetime
- * [36]	CWE-835	Loop with Unreachable Exit Condition ('Infinite Loop')
- * [37]	CWE-704	Incorrect Type Conversion or Cast
- 
  
 ### -Code Review Checklists of Croc Application
    * Reviewer: Zexi Xing, Zidong Liu
    * Review Date: 12/02/2020
    * Application: Croc in-network file transferring system
 
-  Based on those previous misuse cases, assurance cases, and threat models, we figured out that Croc has not provide proper protection on input validating and users’             authorized access control. Hence, we need to go through the code view to see if Croc’s functions do have some weaknesses that have been defined in CWE checklist. 
+
 
 #### **Static Code Analysis**
   | Checklist Item | Category | Notes |
@@ -67,9 +64,7 @@ A short summary of your code review strategy.What challenges did you anticipate 
 
 we then created a team template using this spesific CWEs and began analyzing each croc file individually each croc fil to cover more ground (code).
 
-Peer Code Review Method (Light Review)
 
-Each team member reviewed sections of  200 lines of code at a time , and analyzed and reviewed our code using the SonarQube scanner tool. SonarQobe is a multi-platform software tool and contains more than 60 plugin extensions. It is compatible with more than 25 programming languages. After each individual manually analyzed core sections of Croc code, we reviewed our code as a team then took the time to properly see if there were any faults that needed to be addressed or fixed. Our goal was to review and analyze more then 500 lines a code per week and find any vulnerabilities, issues, or other debugging that Croc might need.
 
 Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
