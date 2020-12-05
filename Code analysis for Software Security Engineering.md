@@ -56,6 +56,8 @@ A much more efficient method of Code Review, indicated by our professor in our l
   | Croc does not neutralize or incorrectly neutralizes special elements  | Code Injection | CWE-94 | Input validation |
   | The activity log does not show failed attempted passcode for each file | Improper Privilege Management | CWE-306 | Access control |
   | Improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
+  | sendData in Croc is not end-end encryption, only encrypts if certain conditions are met | Missing Encryption of Sensitive Data | CWE-311 | Confidential information |
+  | Salt generation in Croc file is predictable | Use of Insufficiently Random Values | CWE-330 & CWE-340 | Confidential information |
 
 
 
