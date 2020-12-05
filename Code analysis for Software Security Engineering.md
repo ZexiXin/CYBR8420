@@ -112,7 +112,7 @@ Finally, we got some result, but it is not doing the correct scanning as we expe
  
 Summary of key findings from manual and/or automated scanning. This summary should include mappings to CWEs to describe categories of major findings.
 
-Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
+#### Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
 
  
 
