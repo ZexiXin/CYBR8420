@@ -58,6 +58,36 @@ A much more efficient method of Code Review, indicated by our professor in our l
   | Improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
   | sendData in Croc is not end-end encryption, only encrypts if certain conditions are met | Missing Encryption of Sensitive Data | CWE-311 | Confidential information |
   | Salt generation in Croc file is predictable | Use of Insufficiently Random Values | CWE-330 & CWE-340 | Confidential information |
+  
+### -Code Review Checklists of Croc Application
+   * Reviewer: Dennis Ugbebor
+   * Review Date: 12/03/2020
+   * Application: Croc cli.go
+
+
+#### **Static Code Analysis**
+  | Checklist Item | Category | Notes |
+  | --- | --- | --- |
+  | Using CWE reference to analyze Croc’s structs and methods | Manual Code Analysis | SonarQube was setup but Analysis was inconclusive due to subscription requirements for report scanning.|
+  
+  #### **Clean code**
+  | Checklist Item | Category |
+  | --- | --- |
+  | Structs should be small | Structs |
+  | Functions should be small   | Functions |
+  | Avoid duplication functions | Functions |
+  | Documentation properly | Comments |
+  | Do not return nil | Exceptions |
+  | Use intention-revealing names | Meaningful names |
+  | No spelling error | Meaningful names |
+  | File stream has been closed after used | Input Stream |
+
+#### **Security Issue Checklist**
+  | Checklist Item | Weakness | CWE number | Category |
+  | --- | --- | --- | --- |
+  | Inconsistent error handling and resultant weaknesses | Missing Standardized Error Handling Mechanism | CWE-544 | Error Handling | 
+  
+
 
 
 ### Findings from automated code scanning (if available). Include links to full reports.
