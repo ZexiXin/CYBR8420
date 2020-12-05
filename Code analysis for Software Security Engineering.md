@@ -10,7 +10,7 @@ Based on those previous misuse cases, assurance cases, and threat models, we fig
  
 In previous deliverables for this project, we had identified that certain portions of Croc’s functionality might be more prone to vulnerabilities than others given their importance.  For example, a user interacting with Croc as a file sender or receiver does not have a great many options to interact with Croc other than basic input parameters.  So, input validation is a key factor (CWE-20).  Croc has no implementation for accounts or user authorization other than sourcing the sender or receiver to an IP address.  This led us to also focus on CWEs related to missing authorization (CWE-25) and authentication for critical functions (CWE-306).  Another aspect of Croc is the actual uploading and downloading of the user’s file, so CWEs like CWE-434 were also critical.  This process of reviewing past analysis of Croc and then mapping them to CWEs, then in turn scanning through the code and looking for related issues was our general approach to code review.
 
-A much more efficient method of Code Review, indicated by our professor in our latest team check-in, was to utilize a software scanning tool to generate a configured report which would then give us terms, faults, and problems which would help us in our manual code review.  But, as is written in a later section of this document, we had several troubles with setting up our automated tool.  We had tried on several occasions to get SonarQube, a popular scanning tool compatible with Go, to work but were unsuccessful.  This led us to lean more on manual code review.  So, for the manual code review, we used the extensive documentation found on https://cwe.mitre.org/ for various CWEs and applied them as a checklist for us to manually review Croc’s code
+A much more efficient method of Code Review, indicated by our professor in our latest team check-in, was to utilize a software scanning tool to generate a configured report which would then give us terms, faults, and problems which would help us in our manual code review.  But, as is written in a later section of this document, we had several troubles with setting up our automated tool.  We had tried on several occasions to get SonarQube, a popular scanning tool compatible with Go, to work but were unsuccessful.  This led us to lean more on manual code review.  So, for the manual code review, we used the extensive documentation found on https://cwe.mitre.org/ for various CWEs and applied them as a checklist for us to manually review Croc’s code.
 
 
  
@@ -60,17 +60,15 @@ A much more efficient method of Code Review, indicated by our professor in our l
   | Salt generation in Croc file is predictable | Use of Insufficiently Random Values | CWE-330 & CWE-340 | Confidential information |
 
 
+We then created a team template using this spesific CWEs and began analyzing each croc file individually each croc fil to cover more ground (code).
 
 
 
-
-we then created a team template using this spesific CWEs and began analyzing each croc file individually each croc fil to cover more ground (code).
-
+### Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
 
-Findings from manual code review of critical security functions identified in misuse cases, assurance cases, and threat models.
 
-Findings from automated code scanning (if available). Include links to full reports.
+### Findings from automated code scanning (if available). Include links to full reports.
 ![](/image/tool1.png)
 ![](/image/tool2.png)
 ![](/image/tool3.png)
