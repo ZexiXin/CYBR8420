@@ -74,9 +74,6 @@ Findings from automated code scanning (if available). Include links to full repo
 ![](/image/tool1.png)
 ![](/image/tool2.png)
 ![](/image/tool3.png)
-(Add screen shots from zexi computer explaing the situation so we have evidence)
-We then ran our test tool, the SonarQuad scanner Tool for Golang. This allowed a for a faster and more productive strategy for effective code inspection. We were able to broaden our scope and allow for more effective, productive code review.  This ultimately allowed for us to improve the process of the code review.
-
 
 
 ## Part 2
