@@ -57,8 +57,8 @@ A short summary of your code review strategy.What challenges did you anticipate 
   | Croc does not validate or incorrectly validates | Improper Validation of Specified Type of Input | CWE-1287 | Input validation | 
   | Croc does not properly control the allocation and maintenance of a limited resource | leading to the exhaustion of available resources | CWE-400 | Resource |
   | Croc does not neutralize or incorrectly neutralizes special elements  | Code Injection | CWE-94 | Input validation |
-  |The activity log does not show failed attempted passcode for each file | Improper Privilege Management | CWE-306 | Access control |
-  |improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
+  | The activity log does not show failed attempted passcode for each file | Improper Privilege Management | CWE-306 | Access control |
+  | Improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
 
 
 
