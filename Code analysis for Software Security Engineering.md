@@ -6,7 +6,7 @@
   
 ### A short summary of your code review strategy. What challenges did you anticipate and how did your code review strategy attempt to address those challenges?
 
-Based on those previous misuse cases, assurance cases, and threat models, we figured out that Croc has not provide proper protection on input validating and users’ authorized access control. Hence, we decided to first go through the code view to see if Croc’s functions do have some weaknesses that have been defined in CWE checklist.  To do this, our code review strategy was a checklist-based approach that leaned on some core CWEs we saw as probable vulnerabilities within Croc, while also being within the realm of programming concepts we were familiar with.  We started with the list of Top 25 CWEs, then expanded our usage of CWE references as we progressed through the code.  Each team member would review approximately 200 lines of code at a time, taken from core files within the Croc software environment. So, we decided to create a-two man group to review different Croc Application - tcp, Cli, Comm, , Util and Croc files. The table below shows the pairing of our teams:
+Based on those previous misuse cases, assurance cases, and threat models, we figured out that Croc has not provide proper protection on input validating and users’ authorized access control. Hence, we decided to first go through the code view to see if Croc’s functions do have some weaknesses that have been defined in CWE checklist.  To do this, our code review strategy was a checklist-based approach that leaned on some core CWEs we saw as probable vulnerabilities within Croc, while also being within the realm of programming concepts we were familiar with.  We started with the list of Top 25 CWEs, then expanded our usage of CWE references as we progressed through the code.  Each team member would review approximately 200 lines of code at a time, taken from core files within the Croc software environment. So, we decided to create a-two man group to review different Croc Application - tcp, Cli, Comm, Util and Croc code files. The table below shows the pairing of our teams:
 
 ### - Code Review Workshare
   | Groups | Team Members |
@@ -96,7 +96,10 @@ A much more efficient method of Code Review, indicated by our professor in our l
 #### **Security Issue Checklist**
   | Checklist Item | Weakness | CWE number | Category |
   | --- | --- | --- | --- |
+  | Inconsistent error handling and resultant weaknesses | Missing Standardized Error Handling Mechanism | CWE-544 | Error Handling |
   | Inconsistent error handling and resultant weaknesses | Missing Standardized Error Handling Mechanism | CWE-544 | Error Handling | 
+  
+
   
 
 
