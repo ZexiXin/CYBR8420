@@ -11,11 +11,11 @@ Based on those previous misuse cases, assurance cases, and threat models, we fig
 ### - Code Review Workshare
   | Groups | Team Members | Codes |
   | --- | --- | --- |
-  | A | Dennis & Enersto | Cli |
-  | B | Adam & Zexi |Cli |
-  | C | Dong & Enersto |Cli |
+  | A | Dennis & Enersto | Comm |
+  | B | Adam & Zexi |Croc |
+  | C | Dong & Enersto |Util |
   | D | Adam & Dennis |Cli |
-  | C | Zexi & Dong |Cli |
+  | E | Zexi & Dong |TCP |
   
    
 In previous deliverables for this project, we had identified that certain portions of Croc’s functionality might be more prone to vulnerabilities than others given their importance.  For example, a user interacting with Croc as a file sender or receiver does not have a great many options to interact with Croc other than basic input parameters.  So, input validation is a key factor (CWE-20).  Croc has no implementation for accounts or user authorization other than sourcing the sender or receiver to an IP address.  This led us to also focus on CWEs related to missing authorization (CWE-25) and authentication for critical functions (CWE-306).  Another aspect of Croc is the actual uploading and downloading of the user’s file, so CWEs like CWE-434 were also critical.  This process of reviewing past analysis of Croc and then mapping them to CWEs, then in turn scanning through the code and looking for related issues was our general approach to code review.
