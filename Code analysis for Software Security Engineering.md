@@ -34,7 +34,7 @@ A much more efficient method of Code Review, indicated by our professor in our l
 #### **Static Code Analysis**
   | Checklist Item | Category | Notes |
   | --- | --- | --- |
-  | Using CWE reference to analyze Croc’s structs and methods | Manual Code Analysis | If no automated Code Analysis is setup for Croc project, we do not use automatic analysis; SonarQube was setup but Analysis was inconclusive due to subscription requirements for report scanning |
+  | Using CWE reference to analyze Croc’s structs and methods | Manual Code Analysis | Automated Code Analysis was setup for Croc project but we could not successfully conduct automatic analysis; SonarQube was setup but Analysis was inconclusive due to subscription requirements for report scanning |
 
 #### **Clean code**
   | Checklist Item | Category |
