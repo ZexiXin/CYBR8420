@@ -86,6 +86,10 @@ Finally, we got some result, but it is not doing the correct scanning as we expe
  
 Summary of key findings from manual and/or automated scanning. This summary should include mappings to CWEs to describe categories of major findings.
 
+Our general findings were that Croc, for what the program seeks to do, does so with relative security.  This is made easier with Croc’s developmental goal of simplicity.  Seen in [Croc documentation](https://schollz.com/blog/croc6/) and emphasized throughout, croc is summarized by its authors as “croc = fast + secure +simple.”.  The “simple” aspect refers to Crocs narrow scope, it avoids feature creep and bloat.  The “secure” refers to its password-protected and encrypted file transfer service.  During our analysis, we found these features present and done so with software assurance in mind.
+
+However, there were some key findings in our manual review.  There were several instances of weak input-validation we noted (CWE-20).  Give that the only real way to interact with Croc is the typing prompt, this was a disappointing find.  Certain confidential information, like IP addresses, are hard-coded into the process (CWE-287, CWE- CWE-291) which is lacking because the mere address is the only real authentication system that Croc uses outside of the password prompt.   Log messaging for error handling is also a weak point (CWE-544) in that it seems to be extremely inconsistent in the code.  Several locations were noted where one would think an error handler would be implemented in some way, even if just a basic exit condition.  
+
 #### Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
 
  
