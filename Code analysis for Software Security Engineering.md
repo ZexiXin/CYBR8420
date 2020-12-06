@@ -84,7 +84,7 @@ Finally, we got some result, but it is not doing the correct scanning as we expe
 
 ## Part 2
  
-Summary of key findings from manual and/or automated scanning. This summary should include mappings to CWEs to describe categories of major findings.
+### Summary of key findings from manual and/or automated scanning. This summary should include mappings to CWEs to describe categories of major findings.
 
 Our general findings were that Croc, for what the program seeks to do, does so with relative security.  This is made easier with Croc’s developmental goal of simplicity.  Seen in [Croc documentation](https://schollz.com/blog/croc6/) and emphasized throughout, croc is summarized by its authors as “croc = fast + secure +simple.”.  The “simple” aspect refers to Crocs narrow scope, it avoids feature creep and bloat.  The “secure” refers to its password-protected and encrypted file transfer service.  During our analysis, we found these features present and done so with software assurance in mind.
 
@@ -92,6 +92,7 @@ However, there were some key findings in our manual review.  There were several 
 
 #### Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
 
+Based on what we have analyzed so far, the Croc itself does exist few security issues need us to focus on. Hence, we plan to contribute some possible design changes like adding the user authentication process, specify file size boundary, or even use unpredictable passcode generation algorithm to the Crco developers. 
  
 
 ### Collaborations:  
