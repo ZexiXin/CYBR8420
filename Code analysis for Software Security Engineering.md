@@ -74,7 +74,7 @@ A much more efficient method of Code Review, indicated by our professor in our l
  
 
 ### Findings from automated code scanning (if available). Include links to full reports.
-At the begining, we selected a automatic scanning tool called Sonarcloud to analyze Croc App, but we have encountered several configuration problems while figuring out the file enviroment PATH and Snoar source. During the 12/04 group meeting, we decide to reconfigure it and see if the online resources could help us to solve this issue. Unfortunately, we haven't found many useful resources that specify the project root configuration file, so we Fork the Croc into out repository and use the URL as the root configuration file to start analyzing. 
+At the begining, we selected a automatic scanning tool called Sonarcloud and SonarQube to analyze Croc App, but we have encountered several configuration problems while figuring out the file enviroment PATH and Snoar source. During the 12/04 group meeting, we decide to reconfigure it and see if the online resources could help us to solve this issue. Unfortunately, we haven't found many useful resources that specify the project root configuration file, so we Fork the Croc into out repository and use the URL as the root configuration file to start analyzing. 
 ![](/image/tool1.png)
 ![](/image/tool2.png)
 
