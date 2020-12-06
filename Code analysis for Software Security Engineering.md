@@ -90,7 +90,7 @@ Our general findings were that Croc, for what the program seeks to do, does so w
 
 However, there were some key findings in our manual review.  There were several instances of weak input-validation we noted (CWE-20).  Give that the only real way to interact with Croc is the typing prompt, this was a disappointing find.  Certain confidential information, like IP addresses, are hard-coded into the process (CWE-287, CWE- CWE-291) which is lacking because the mere address is the only real authentication system that Croc uses outside of the password prompt.   Log messaging for error handling is also a weak point (CWE-544) in that it seems to be extremely inconsistent in the code.  Several locations were noted where one would think an error handler would be implemented in some way, even if just a basic exit condition.  
 
-#### Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
+### Planned or ongoing contributions to the upstream open-source project (documentation, design changes, code changes, communications, etc.) These can be based on any of the prior assignments in the class.
 
 Based on what we have analyzed so far, the Croc itself does exist few security issues need us to focus on. Hence, we plan to contribute some possible design changes like adding the user authentication process, specify file size boundary, or even use unpredictable passcode generation algorithm to the Crco developers. 
  
