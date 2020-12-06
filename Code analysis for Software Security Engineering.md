@@ -25,7 +25,7 @@ A much more efficient method of Code Review, indicated by our professor in our l
 
  
 ### -Code Review Checklists of Croc Application
-   * Reviewer: Zexi Xing, Zidong Liu, Ernesto Macias
+   * Reviewer: Zexi Xing, Zidong Liu, Ernesto Macias, Dennis Ugbebor
    * Review Date: 12/02/2020
    * Application: Croc in-network file transferring system
 
