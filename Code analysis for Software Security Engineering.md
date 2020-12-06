@@ -24,7 +24,7 @@ A much more efficient method of Code Review, indicated by our professor in our l
 
  
 ### -Code Review Checklists of Croc Application
-   * Reviewer: Zexi Xing, Zidong Liu
+   * Reviewer: Zexi Xing, Zidong Liu, Ernesto Macias
    * Review Date: 12/02/2020
    * Application: Croc in-network file transferring system
 
@@ -67,6 +67,8 @@ A much more efficient method of Code Review, indicated by our professor in our l
   | Improperly implemented authentication schemes that are subject to spoofing attacks | Authentication Bypass by Spoofing | CWE-290| Spoofing |
   | sendData in Croc is not end-end encryption, only encrypts if certain conditions are met | Missing Encryption of Sensitive Data | CWE-311 | Confidential information |
   | Salt generation in Croc file is predictable | Use of Insufficiently Random Values | CWE-330 & CWE-340 | Confidential information |
+  | Communication Channel Errors| Improper handling of communication channels/Paths| CWE-924 | Confidential information |
+  
   
 ### -Code Review Checklists of Croc Application
    * Reviewer: Dennis Ugbebor
