@@ -9,13 +9,13 @@
 Based on those previous misuse cases, assurance cases, and threat models, we figured out that Croc has not provide proper protection on input validating and users’ authorized access control. Hence, we decided to first go through the code view to see if Croc’s functions do have some weaknesses that have been defined in CWE checklist.  To do this, our code review strategy was a checklist-based approach that leaned on some core CWEs we saw as probable vulnerabilities within Croc, while also being within the realm of programming concepts we were familiar with.  We started with the list of Top 25 CWEs, then expanded our usage of CWE references as we progressed through the code.  Each team member would review approximately 200 lines of code at a time, taken from core files within the Croc software environment. So, we decided to create a-two man group to review different Croc Application - tcp, Cli, Comm, Util and Croc code files. The table below shows the pairing of our teams:
 
 ### - Code Review Workshare
-  | Groups | Team Members |
-  | --- | --- |
-  | A | Dennis & Enersto |
-  | B | Adam & Zexi |
-  | C | Dong & Enersto |
-  | D | Adam & Dennis |
-  | C | Zexi & Dong |
+  | Groups | Team Members | Codes |
+  | --- | --- | --- |
+  | A | Dennis & Enersto | Cli |
+  | B | Adam & Zexi |Cli |
+  | C | Dong & Enersto |Cli |
+  | D | Adam & Dennis |Cli |
+  | C | Zexi & Dong |Cli |
   
    
 In previous deliverables for this project, we had identified that certain portions of Croc’s functionality might be more prone to vulnerabilities than others given their importance.  For example, a user interacting with Croc as a file sender or receiver does not have a great many options to interact with Croc other than basic input parameters.  So, input validation is a key factor (CWE-20).  Croc has no implementation for accounts or user authorization other than sourcing the sender or receiver to an IP address.  This led us to also focus on CWEs related to missing authorization (CWE-25) and authentication for critical functions (CWE-306).  Another aspect of Croc is the actual uploading and downloading of the user’s file, so CWEs like CWE-434 were also critical.  This process of reviewing past analysis of Croc and then mapping them to CWEs, then in turn scanning through the code and looking for related issues was our general approach to code review.
